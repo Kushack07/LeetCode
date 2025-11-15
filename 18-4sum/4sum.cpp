@@ -1,18 +1,18 @@
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        vector<vector<int>> ans;
+        vector<vector<int>> result;
         int n = nums.size();
-        if (n < 4) return ans;
+        if (n < 4) return result;
 
         sort(nums.begin(), nums.end());
 
         for (int i = 0; i < n - 3; i++) {
-            // Skip duplicate for i
+            // Skip duplicates for i
             if (i > 0 && nums[i] == nums[i - 1]) continue;
 
             for (int j = i + 1; j < n - 2; j++) {
-                // Skip duplicate for j
+                // Skip duplicates for j
                 if (j > i + 1 && nums[j] == nums[j - 1]) continue;
 
                 long long remaining = (long long)target - nums[i] - nums[j];
@@ -20,10 +20,10 @@ public:
                 int r = n - 1;
 
                 while (l < r) {
-                    long long twoSum = nums[l] + nums[r];
+                    long long twoSum = (long long)nums[l] + nums[r];
 
                     if (twoSum == remaining) {
-                        ans.push_back({nums[i], nums[j], nums[l], nums[r]});
+                        result.push_back({nums[i], nums[j], nums[l], nums[r]});
 
                         // Skip duplicates for l
                         int lastL = nums[l];
@@ -43,6 +43,6 @@ public:
             }
         }
 
-        return ans;
+        return result;
     }
 };
