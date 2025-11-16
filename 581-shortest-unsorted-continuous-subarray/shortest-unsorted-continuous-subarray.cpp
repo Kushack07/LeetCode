@@ -1,0 +1,17 @@
+class Solution {
+public:
+    int findUnsortedSubarray(vector<int>& nums) {
+        int n =nums.size();
+        vector<int>sorted = nums;
+        sort(nums.begin(),nums.end());
+        int left = 0 , right = n-1;
+        while(left<n && nums[left]==sorted[left]){
+            left ++;
+        }
+        if(left == n )return 0 ; 
+        while(right >= 0&& nums[right]==sorted[right]){
+            right--;
+        }
+        return right-left+1;
+    }
+};
