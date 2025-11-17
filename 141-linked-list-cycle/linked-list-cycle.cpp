@@ -27,7 +27,7 @@ public:
         if(!head || !head->next) return false;
         ListNode* f=head;
         ListNode*s=head;
-        while(f && f->next)
+        while(f->next && f->next->next)
         {
             f=f->next->next;
             s=s->next;
