@@ -1,19 +1,34 @@
 class Solution {
 public:
-int solve(vector<int>a)
-{
-    sort(a.begin(),a.end());
-    int maxi=1,len=1;
-    int n=a.size();
-    for(int i=0;i<n-1;i++)
-    {
-        len=1+(-(a[i]+1==a[i+1])&len);
-        maxi=max(maxi,len);
-    }
-    return maxi;
-}
-    int maximizeSquareHoleArea(int n, int m, vector<int>& hb, vector<int>& vb) {
-        int res=1+min(solve(hb),solve(vb));
-        return res*res;
+    int maximizeSquareHoleArea(int n, int m, vector<int>& hBars, vector<int>& vBars) {
+        sort(hBars.begin(), hBars.end());
+        sort(vBars.begin(), vBars.end());
+
+        int maxH = 1, maxV = 1;
+        int curr = 1;
+
+        // Horizontal bars
+        for(int i = 1; i < hBars.size(); i++) {
+            if(hBars[i] == hBars[i-1] + 1) {
+                curr++;
+                maxH = max(maxH, curr);
+            } else {
+                curr = 1;
+            }
+        }
+
+        curr = 1;
+        // Vertical bars
+        for(int i = 1; i < vBars.size(); i++) {
+            if(vBars[i] == vBars[i-1] + 1) {
+                curr++;
+                maxV = max(maxV, curr);
+            } else {
+                curr = 1;
+            }
+        }
+
+        int side = min(maxH + 1, maxV + 1);
+        return side * side;
     }
 };
