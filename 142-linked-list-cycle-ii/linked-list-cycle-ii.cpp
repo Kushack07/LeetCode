@@ -1,31 +1,29 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        if(!head || !head->next){
-            cout<< "no cycle";
+        if(head == NULL) return NULL;
+
+        ListNode *slow = head;
+        ListNode *fast = head;
+
+        // Step 1: Detect cycle
+        while(fast != NULL && fast->next != NULL) {
+            slow = slow->next;
+            fast = fast->next->next;
+            if(slow == fast) break;
         }
-        ListNode*slow =head;
-        ListNode*fast= head;
-        while(fast && fast->next){
-            slow =slow ->next;
-            fast =fast->next->next;
-            if(slow == fast){
-                ListNode*res = head;
-                while(res!=slow){
-                    res=res->next ;
-                    slow=slow->next;
-                }
-                return res;
-            }  
+
+        // No cycle
+        if(fast == NULL || fast->next == NULL)
+            return NULL;
+
+        // Step 2: Find cycle start
+        slow = head;
+        while(slow != fast) {
+            slow = slow->next;
+            fast = fast->next;
         }
-        return NULL;
+
+        return slow; // starting node of cycle
     }
 };
