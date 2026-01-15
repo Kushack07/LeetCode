@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2141-maximum-running-time-of-n-computers](https://github.com/KUSH-0007/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/KUSH-0007/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2625-increment-submatrices-by-one](https://github.com/KUSH-0007/LeetCode/tree/master/2625-increment-submatrices-by-one) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/KUSH-0007/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/KUSH-0007/LeetCode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/KUSH-0007/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Math
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/KUSH-0007/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/KUSH-0007/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/KUSH-0007/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## String
 |  |
