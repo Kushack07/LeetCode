@@ -109,4 +109,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/KUSH-0007/LeetCode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
