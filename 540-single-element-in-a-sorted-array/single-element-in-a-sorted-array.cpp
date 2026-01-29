@@ -1,20 +1,20 @@
 class Solution {
 public:
-    int singleNonDuplicate(vector<int>& nums) {
+    int singleNonDuplicate(vector<int>& A) {
         int i = 0;
-        int e = nums.size();
+        int e = A.size();
 
         while(i<e-1)
         {
-            if(nums[i] == nums[i+1])
+            if(A[i] == A[i+1])
             {
                 i+=2;
             }
             else
             {
-                return nums[i];
+                return A[i];
             }
         }
-        return nums[e-1];
+        return A[e-1];
     }
 };
