@@ -10,26 +10,22 @@
  */
 class Solution {
 public:
-    deque <ListNode*> q;
-
     ListNode* rotateRight(ListNode* head, int k) {
-        if (!head) return head;
-
-        while (head) {
-            q.push_back(head);
-
-            head = head->next;
-        }
-
-        k = k % q.size();
-
-        while (k--) {
-            q.back()->next = q.front();
-            q.push_front(q.back());
-            q.pop_back();
-
-            q.back()->next = nullptr;
-        }
-        return q.front();
+        if(!head || ! head->next || k ==0 )return head;
+            int n =1;
+            ListNode*last =head;
+            while(last->next){
+                last = last->next; 
+                n++;
+            }
+            k= k%n;
+            last->next = head; 
+            ListNode* newTail =head;
+            for(int i=0;i<(n-k-1);i++){
+                newTail = newTail->next;
+            }
+            ListNode*newHead = newTail->next ;
+            newTail->next = nullptr;
+            return newHead;
     }
 };
