@@ -1,14 +1,15 @@
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-       int count=0;
-       for(int i=s.size()-1;i>=0;i--){
-        if(s[i]==' '){
-            if(count!=0) break;
+        int length = 0;
+        int i = s.size() - 1;
+        while (i >= 0 && s[i] == ' ') {
+            i--;
         }
-        else count++;
-        cout<<count;
-       } 
-    return count;
+        while (i >= 0 && s[i] != ' ') {
+            length++;
+            i--;
+        }
+        return length;
     }
 };
