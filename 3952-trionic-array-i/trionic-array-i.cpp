@@ -1,13 +1,12 @@
 class Solution {
 public:
-    bool isTrionic(vector<int>& nums) {
-        int n = nums.size();
-        int i =0 ;
-        while(i+1<n  && nums[i]<nums[i+1])i++;
-        if(i==0 || i== n-1)return false;
-        while(i+1<n && nums[i]>nums[i+1])i++;
-        if(i==n-1)return false;
-        while(i+1<n && nums[i]<nums[i+1])i++;
-        return i== n-1;
+    bool isTrionic(vector<int>& a) {
+        int i=1,n=a.size();
+        while(i<n&&a[i]>a[i-1]) i++;
+        if(i<2|| i==n) return false;
+        while(i<n && a[i]<a[i-1]) i++;
+        if(i<3 || i==n) return false;
+        while(i<n && a[i]>a[i-1]) i++;
+        return i==n;
     }
 };
