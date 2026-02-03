@@ -1,18 +1,17 @@
 class Solution {
 public:
-    bool isValidSudoku(vector<vector<char>>& a) {
-        int r[9][9]={false},c[9][9]={false},b[9][9]={false};
-        for(int i=0;i<9;i++)
-        {
-            for(int j=0;j<9;j++)
-            {
-            if(a[i][j]!='.')
-            {
-            int n=a[i][j]-'1';
-            int bidx=(i/3)*3+(j/3);
-if(b[bidx][n]||r[i][n]||c[j][n]) return false;
-b[bidx][n]=r[i][n]=c[j][n]=true;
-            }
+    bool isValidSudoku(vector<vector<char>>& board) {
+        unordered_set<char>row[9],cols[9],boxes[9];
+        int n = board.size();
+        for(int i=0;i<9;i++){
+            for(int j =0;j<9;j++){
+                char c = board[i][j];
+                if(c=='.')continue;
+                int boxid = (i/3)*3+(j/3);
+                if(row[i].count(c)||cols[j].count(c)||boxes[boxid].count(c))return false;
+                row[i].insert(c);
+                cols[j].insert(c);
+                boxes[boxid].insert(c);
             }
         }
         return true;
