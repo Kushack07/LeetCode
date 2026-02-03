@@ -1,23 +1,24 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        unordered_set<string>s;
-        int n = 0 ;
-        for(int i=0;i<9;i++){
-            for(int j=0 ;j<9;j++){
-                char c = board[i][j];
-                if(c!='.'){
-                    n++;
-                    string row ="row"+to_string(i)+c;
-                    string col ="col"+to_string(j)+c;
-                    int bidx =(i/3)*3+j/3;
-                    string block ="block"+to_string(bidx)+c;
-                    s.insert(row);
-                    s.insert(col);
-                    s.insert(block);
+        bool row[9][9];
+        bool col[9][9];
+        bool box[9][9];
+        for(int i=0;i<9;++i){
+            for(int j=0;j<9;++j){
+                if(board[i][j]=='.'){
+                    continue;
                 }
-            }
+                int d=board[i][j]-'1';
+                int b=(i/3)*3+j/3;
+                if(row[i][d]||col[j][d]||box[b][d]){
+                    return false;
+                }
+                row[i][d]=true;
+                col[j][d]=true;
+                box[b][d]=true;
+            }    
         }
-        return s.size()==3*n;
+        return true;
     }
 };
