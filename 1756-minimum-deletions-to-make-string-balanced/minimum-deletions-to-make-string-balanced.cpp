@@ -1,16 +1,20 @@
 class Solution {
 public:
     int minimumDeletions(string s) {
-        int n = s.size();
-        int cnt=0;
-        int ans =0;
-        for(int i =0 ; i<n;i++){
-            if(s[i]=='b')cnt++;
-            if(s[i]=='a'&&cnt>0){
-                cnt -- ;
-                ans ++;
+        int n=s.size();
+        int cntb = 0;
+        int ans =0 ;
+        for(int i=0 ; i<n ; i++){
+            if(s[i]=='b'){
+                cntb++;
+            }
+            else{
+                if(cntb>0){
+                    cntb--;
+                    ans++;
+                }
             }
         }
-        return ans ; 
+        return ans ;
     }
 };
