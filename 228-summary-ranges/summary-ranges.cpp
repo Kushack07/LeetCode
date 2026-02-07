@@ -1,38 +1,22 @@
 class Solution {
 public:
-    vector<string> summaryRanges(vector<int>& arr) {
-        int n = arr.size(); // extracting size of the array
-        vector<string> ans; // declaring answer array to store our answer
-        
-        string temp = ""; // temproray string that stores all possible answer
-        
-        for(int i = 0; i < n; i++) // start traversing from the array
-        {
-            int j = i; // declare anthor pointer that will move
-            
-            // run that pointer until our range is not break
-            while(j + 1 < n && arr[j + 1] == arr[j] + 1)
-            {
-                j++;
+    vector<string> summaryRanges(vector<int>& nums) {
+        vector<string>ans;
+        int n = nums.size();
+        for(int i=0;i<n;i++){
+            int start = nums[i];
+            while(i+1 <n && nums[i+1]==nums[i]+1){
+                i++;
             }
-            
-            // if j > i, that means we got our range more than one element
-            if(j > i)
-            {
-                temp += to_string(arr[i]); // first store starting point
-                temp += "->"; // then store arrow, as question wants it
-                temp += to_string(arr[j]); // and lastly store the end point
+            int end = nums[i];
+            if(start ==end){
+                ans.push_back(to_string(start));
             }
-            else // we got only one element as range
-            {
-                temp += to_string(arr[i]); // then store that element in temp
+            else{
+                ans.push_back(to_string(start)+"->"+to_string(end));
             }
-            
-            ans.push_back(temp); // push one possible answer string to our answer
-            temp = ""; // again reintiliaze temp for new possible answers
-            i = j; // and move i to j for a fresh start
         }
+        return ans;
         
-        return ans; // and at last finally return the answer array
     }
 };
