@@ -1,43 +1,29 @@
 class Solution {
 public:
-    vector<int> spiralOrder(vector<vector<int>>& matrix) {
-        int n = matrix[0].size() - 1;
-        int m = matrix.size() - 1;
-        int top = 0;
-        int right = n;
-        int left = 0;
-        int bottom = m;
-
-        vector<int> res;
-
-        while(top <= bottom && left <= right){
-            // Top row
-            for(int i = left; i <= right; i++){
-                res.push_back(matrix[top][i]);
+    vector<int> spiralOrder(vector<vector<int>>& a) {
+        int m=a.size(),n=a[0].size();
+        vector<vector<bool>>vis(m,vector<bool>(n,false));
+        vector<int>res;
+        int idx=0;
+        vector<int> dr={0,1,0,-1};
+        vector<int> dc={1,0,-1,0};
+        int r=0,c=0;
+        for(int i=0;i<m*n;i++)
+        {
+            res.push_back(a[r][c]);
+            int newr=r+dr[idx];
+            int newc=c+dc[idx];
+            vis[r][c]=true;
+            if(0<=newr && newr<m && newc>=0 && newc<n && !vis[newr][newc])
+            {
+                r=newr;c=newc;
             }
-            top++;
-
-            // Right column
-            for(int i = top; i <= bottom; i++){
-                res.push_back(matrix[i][right]);
-            }
-            right--;
-
-            if(top <= bottom){
-                // Bottom row
-                for(int i = right; i >= left; i--){
-                    res.push_back(matrix[bottom][i]);
-                }
-                bottom--;
+            else{
+                idx=(idx+1)%4;
+                r+=dr[idx];
+                c+=dc[idx];
             }
 
-            if(left <= right){
-                // Left column
-                for(int i = bottom; i >= top; i--){
-                    res.push_back(matrix[i][left]);
-                }
-                left++;
-            }
         }
         return res;
     }
