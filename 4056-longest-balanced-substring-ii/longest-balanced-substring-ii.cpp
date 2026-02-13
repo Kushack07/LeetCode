@@ -1,55 +1,69 @@
-class Solution{
+// faster variant
+#include <memory_resource>
+pmr::unsynchronized_pool_resource pool;
+class Solution {
 public:
-typedef long long ll;
+    static int has1(string& s, int n){
+        int cnt=1, len=1;
+        for(int i=1; i<n; i++){
+            if (s[i]==s[i-1]) len++;
+            else {
+                cnt=max(cnt, len);
+                len=1;
+            }
+        }
+        return max(cnt, len);
+    }
 
-int longestBalanced(string s){
-int x=calc1(s);
-int y=max({calc2(s,'a','b'),calc2(s,'b','c'),calc2(s,'a','c')});
-int z=calc3(s);
-return max({x,y,z});
-}
-private:
-int calc1(const string&s){
-int res=0;
-for(int i=0;i<s.size();){
-int j=i;
-while(j<s.size()&&s[j]==s[i])j++;
-res=max(res,j-i);
-i=j;
-}
-return res;
-}
-int calc2(const string&s,char a,char b){
-int res=0,n=s.size(),i=0;
-while(i<n){
-while(i<n&&s[i]!=a&&s[i]!=b)i++;
-unordered_map<int,int>mp;
-mp[0]=i-1;
-int diff=0;
-while(i<n&&(s[i]==a||s[i]==b)){
-diff+=(s[i]==a?1:-1);
-if(mp.count(diff))res=max(res,i-mp[diff]);
-else mp[diff]=i;
-i++;
-}
-}
-return res;
-}
-ll key(int x,int y){
-return((ll)(x+100000)<<20)|(y+100000);
-}
-int calc3(const string&s){
-unordered_map<ll,int>mp;
-mp[key(0,0)]=-1;
-int cnt[3]={0},res=0;
-for(int i=0;i<s.size();i++){
-cnt[s[i]-'a']++;
-int x=cnt[0]-cnt[1];
-int y=cnt[1]-cnt[2];
-ll k=key(x,y);
-if(mp.count(k))res=max(res,i-mp[k]);
-else mp[k]=i;
-}
-return res;
-}
+    static constexpr long long bias=1<<18, shift=32;
+    inline static long long pack(int x, int y){
+        // Deal with negative int
+        return ((long long)(x+bias)<<shift)|(long long)(y+bias);
+    }
+
+    static int longestBalanced(string& s) {
+        const int n=s.size();
+        int ans=has1(s, n);
+
+        pmr::unordered_map<long long, int> ab(&pool), bc(&pool), ca(&pool), abc(&pool);
+        
+        ab.reserve(n), bc.reserve(n), ca.reserve(n), abc.reserve(n);
+        // INITIAL STATE: Differences at index -1
+        abc[pack(0, 0)]=-1;
+        ab[pack(0, 0)]=-1; // (A-B, C)
+        bc[pack(0, 0)]=-1; // (B-C, A)
+        ca[pack(0, 0)]=-1; // (C-A, B)
+    
+        array<int, 3> cnt={0};
+        for(int i=0; i<n; i++){
+            cnt[s[i]-'a']++; 
+            const auto [A, B, C]=cnt;
+
+            // 3-letter balance: A=B=C
+            long long key=pack(B-A, C-A);
+            auto it=abc.find(key);// find once 
+            if(it!=abc.end()) ans=max(ans, i-it->second);
+            else abc[key]=i;
+
+            // 2-letter balance: A=B and NO C
+            key=pack(A-B, C);
+            it=ab.find(key);
+            if(it!=ab.end()) ans = max(ans, i-it->second);
+            else ab[key]=i;
+
+            // 2-letter balance: B=C and NO A
+            key=pack(B-C, A);
+            it=bc.find(key);
+            if(it!=bc.end()) ans=max(ans, i-it->second);
+            else bc[key]=i;
+
+            // 2-letter balance: C=A and NO B
+            key=pack(C-A, B);
+            it=ca.find(key);
+            if(it!=ca.end()) ans=max(ans, i-it->second);
+            else ca[key]=i;
+        }
+        
+        return ans;
+    }
 };
