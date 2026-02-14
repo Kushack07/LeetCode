@@ -1,20 +1,12 @@
 class Solution {
 public:
-    int singleNonDuplicate(vector<int>& A) {
-        int i = 0;
-        int e = A.size();
-
-        while(i<e-1)
+    int singleNonDuplicate(vector<int>& a) {
+        unordered_map<int,int>mp;
+        for(int i:a) mp[i]++;
+        for(auto i:mp)
         {
-            if(A[i] == A[i+1])
-            {
-                i+=2;
-            }
-            else
-            {
-                return A[i];
-            }
+            if(i.second==1) return i.first;
         }
-        return A[e-1];
+        return -1;
     }
 };
