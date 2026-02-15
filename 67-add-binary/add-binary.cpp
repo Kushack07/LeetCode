@@ -4,8 +4,7 @@ string f(string a,string b)
 {
     string res="";
     int x=0;
-    int i=a.size()-1;
-    int j=b.size()-1;
+    int i=a.size()-1,j=b.size()-1;
     while(i>=0 || j>=0 || x)
     {
         if(i>=0) x+=a[i--]-'0';
