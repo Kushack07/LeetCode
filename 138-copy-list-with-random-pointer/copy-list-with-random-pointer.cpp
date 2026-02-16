@@ -16,18 +16,20 @@ public:
 
 class Solution {
 public:
-typedef Node* N;
-    Node* copyRandomList(Node* h) {
-        N t=h;
-        map<N,N>mp;
-        while(t){mp[t]=new Node(t->val);t=t->next;}
-        t=h;//imp
-        while(t)
-        {
-            mp[t]->next=mp[t->next];
-            mp[t]->random=mp[t->random];
-            t=t->next;
-        }        
-        return mp[h];
+    Node* copyRandomList(Node* head) {
+        if(!head)return NULL;
+        unordered_map<Node*,Node*>mp;
+        Node*temp = head;
+        while(temp){
+            mp[temp] =new Node(temp->val);
+            temp = temp->next;
+        }
+        temp = head;
+        while(temp){
+            mp[temp]->next= mp[temp->next];
+            mp[temp]->random=mp[temp->random];
+            temp = temp->next;
+        }
+        return mp[head];
     }
 };
