@@ -11,26 +11,24 @@
  */
 class Solution {
 public:
-typedef TreeNode t;
-int find(vector<int>&a,int st,int end,int k)
-{
-    for(int i=st;i<=end;i++){if(a[i]==k) return i;}
-return -1;
-}
-t* build(vector<int>&in,vector<int>&post,int st,int end,int &pidx)
-{
-if(st>end) return nullptr;
-t* node=new t(post[pidx]);
-pidx--;
-int idx=find(in,st,end,node->val);
-if(st==end) return node;
- node->right=build(in,post,idx+1,end,pidx);
-node->left=build(in,post,st,idx-1,pidx);
-return node;
-}
-    TreeNode* buildTree(vector<int>& in, vector<int>& post) {
-        int n=in.size();
-        int pidx=n-1;
-        return build(in,post,0,n-1,pidx);
+    TreeNode* func(vector<int>& inorder ,vector<int>& postorder,int &post,int left,int right ){
+        if(left>right)return NULL;
+        int curr=postorder[post];
+        TreeNode* newnode=new TreeNode(curr);
+        post--;
+        int p=-1;
+        for(int i=left;i<=right;i++){
+            if(inorder[i]==curr){
+                p=i;
+                break;
+            }
+        }
+        newnode->right=func(inorder,postorder,post,p+1,right);
+        newnode->left=func(inorder,postorder,post,left,p-1);
+        return newnode;
+    }
+    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+        int post=postorder.size()-1;
+        return func(inorder,postorder,post,0,inorder.size()-1);
     }
 };
