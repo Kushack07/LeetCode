@@ -1,25 +1,20 @@
 class Solution {
 public:
-    int countPrimeSetBits(int left, int right) {
-        int cnt =0 ;
-        for(int i=left;i<=right;i++){
-            int setb =__builtin_popcount(i);
-            if(isPrime(setb)){
-                cnt++;
+vector<int>b={2,3,5,7,11,13,17,19};
+    int countPrimeSetBits(int l, int r) {
+        int cnt=0;
+        for(int i=l;i<=r;i++)
+        {
+            int bit=__builtin_popcount(i);
+            for(int j=0;j<b.size();j++)
+            {
+                if(bit==b[j])
+                {
+                    cnt++;
+                    break;
+                }
             }
         }
-        return cnt ;
-    }
-private:
-    bool isPrime(int n ){
-        if(n<=1){
-            return false;
-        }
-        for(int i=2 ; i*i <= n;i++){
-            if(n% i==0 ){
-                return false;
-            }
-        }
-        return true;
+        return cnt;
     }
 };
