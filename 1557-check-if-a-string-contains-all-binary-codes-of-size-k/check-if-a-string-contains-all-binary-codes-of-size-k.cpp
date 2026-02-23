@@ -3,7 +3,7 @@ public:
     bool hasAllCodes(string s, int k) {
         int n=s.size();
         if(n<k) return false;
-        int need=1<<k;//s^k
+        int need=pow(2,k);//s^k
         int m=need-1;
         int h=0;
         unordered_set<int>st;
