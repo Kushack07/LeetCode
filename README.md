@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/KUSH-0007/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/KUSH-0007/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/KUSH-0007/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/KUSH-0007/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KUSH-0007/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/KUSH-0007/LeetCode/tree/master/0125-valid-palindrome) |
+| [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/KUSH-0007/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/KUSH-0007/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/KUSH-0007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/KUSH-0007/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
