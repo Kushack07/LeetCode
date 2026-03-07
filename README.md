@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/KUSH-0007/LeetCode/tree/master/0125-valid-palindrome) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/KUSH-0007/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/KUSH-0007/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/KUSH-0007/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/KUSH-0007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/KUSH-0007/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0940-fruit-into-baskets](https://github.com/KUSH-0007/LeetCode/tree/master/0940-fruit-into-baskets) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 ## Counting
 |  |
 | ------- |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/KUSH-0007/LeetCode/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
+| [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 ## Bit Manipulation
 |  |
