@@ -1,12 +1,21 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
-        int n =nums.size();
+        int n = nums.size();
+        int low = 0 ;
+        int high = n-1;
+        int pos = n-1;
         vector<int>ans(n);
-        for(int i=0;i<n;i++){
-            ans[i]=nums[i]*nums[i];
+        while(low<=high){
+            if(abs(nums[low]) > abs(nums[high])){
+                ans[pos]=nums[low]*nums[low];
+                low++;
+            }else{
+                ans[pos]=nums[high]*nums[high];
+                high--;
+            }
+            pos--;
         }
-        sort(ans.begin(),ans.end());
-        return ans;
+        return ans;   
     }
 };
