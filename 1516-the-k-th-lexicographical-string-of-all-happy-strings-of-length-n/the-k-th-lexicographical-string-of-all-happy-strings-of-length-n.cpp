@@ -1,23 +1,28 @@
 class Solution {
-
-private:
-    void solve(int&n, char prev, vector<string>&happy,string ds){
-        if(ds.size()==n){
-            happy.push_back(ds);
-            return;
-        }
-        for(char c='a';c<='c';++c){
-            if(c==prev){continue;}
-            ds.push_back(c);
-            solve(n,c,happy,ds);
-            ds.pop_back();
-        }
-    }
-
 public:
     string getHappyString(int n, int k) {
-        vector<string>happy;
-        solve(n,'z',happy,"");
-        return happy.size()>=k?happy[k-1]:"";
+
+        int total = 3 * (1<<(n-1));
+        if(k>total) return "";
+
+        k--;
+        string res="";
+        char last='\0';
+
+        for(int pos=0;pos<n;pos++){
+
+            int branch=1<<(n-pos-1);
+
+            vector<char> choices;
+            for(char c:{'a','b','c'})
+                if(c!=last) choices.push_back(c);
+
+            int idx=k/branch;
+            res+=choices[idx];
+            last=choices[idx];
+            k%=branch;
+        }
+
+        return res;
     }
 };
