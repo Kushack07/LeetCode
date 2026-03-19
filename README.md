@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0175-combine-two-tables](https://github.com/KUSH-0007/LeetCode/tree/master/0175-combine-two-tables) |
+| [1280-students-and-examinations](https://github.com/Kushack07/LeetCode/tree/master/1280-students-and-examinations) |
 | [1683-invalid-tweets](https://github.com/KUSH-0007/LeetCode/tree/master/1683-invalid-tweets) |
 ## String Matching
 |  |
