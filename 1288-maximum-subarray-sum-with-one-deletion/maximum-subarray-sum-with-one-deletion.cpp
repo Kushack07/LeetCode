@@ -1,15 +1,14 @@
 class Solution {
 public:
     int maximumSum(vector<int>& arr) {
-        int oneDel = 0;
-        int noDel = arr[0];
-        int ans = arr[0];
-        for(int i=1;i<arr.size();i++){
-            int x = arr[i];
-            oneDel = max(noDel,oneDel+x);
-            noDel= max(noDel+x,x);
-            ans=max(ans,max(noDel,oneDel));
+        int onedelete=arr[0],nodelete=arr[0],res=arr[0];
+        int n = arr.size();
+        if(n==0) return n;
+        for(int i=1;i<n;i++){
+            onedelete=max(onedelete+arr[i],nodelete);
+            nodelete=max(nodelete+arr[i],arr[i]);
+            res=max({res,nodelete,onedelete});
         }
-        return ans;
+        return res;
     }
 };
