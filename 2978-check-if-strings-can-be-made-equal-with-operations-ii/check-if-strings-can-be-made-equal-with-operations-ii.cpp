@@ -1,0 +1,32 @@
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+    bool checkStrings(string s1, string s2) {
+
+        if(s1.size() != s2.size())
+            return false;
+
+        vector<char> e1, e2, o1, o2;
+
+        for(int i = 0; i < s1.size(); i++){
+            if(i % 2 == 0){
+                e1.push_back(s1[i]);
+                e2.push_back(s2[i]);
+            }
+            else{
+                o1.push_back(s1[i]);
+                o2.push_back(s2[i]);
+            }
+        }
+
+        sort(e1.begin(), e1.end());
+        sort(e2.begin(), e2.end());
+        sort(o1.begin(), o1.end());
+        sort(o2.begin(), o2.end());
+
+        return (e1 == e2 && o1 == o2);
+    }
+};
