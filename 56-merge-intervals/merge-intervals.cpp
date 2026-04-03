@@ -1,18 +1,18 @@
 class Solution {
 public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+    vector<vector<int>> merge(vector<vector<int>>& ik) {
 
         vector<vector<int>> res;
 
-        sort(intervals.begin(), intervals.end());
+        sort(ik.begin(), ik.end());
 
-        int start = intervals[0][0];
-        int end = intervals[0][1];
+        int start = ik[0][0];
+        int end = ik[0][1];
 
-        for(int i = 1; i < intervals.size(); i++) {
+        for(int i = 1; i < ik.size(); i++) {
 
-            int start2 = intervals[i][0];
-            int end2 = intervals[i][1];
+            int start2 = ik[i][0];
+            int end2 = ik[i][1];
 
             if(start2 <= end) {
                 end = max(end, end2);
@@ -28,4 +28,4 @@ public:
 
         return res;
     }
-};
+}; 
