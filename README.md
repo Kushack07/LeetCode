@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0289-game-of-life](https://github.com/KUSH-0007/LeetCode/tree/master/0289-game-of-life) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/Kushack07/LeetCode/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/KUSH-0007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/KUSH-0007/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2751-robot-collisions](https://github.com/Kushack07/LeetCode/tree/master/2751-robot-collisions) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1980-find-unique-binary-string](https://github.com/KUSH-0007/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/KUSH-0007/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/Kushack07/LeetCode/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/KUSH-0007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Kushack07/LeetCode/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/Kushack07/LeetCode/tree/master/3474-lexicographically-smallest-generated-string) |
