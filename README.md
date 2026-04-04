@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/KUSH-0007/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0152-maximum-product-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/0152-maximum-product-subarray) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kushack07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/KUSH-0007/LeetCode/tree/master/0189-rotate-array) |
 | [0289-game-of-life](https://github.com/KUSH-0007/LeetCode/tree/master/0289-game-of-life) |
 | [0560-subarray-sum-equals-k](https://github.com/KUSH-0007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KUSH-0007/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0088-merge-sorted-array](https://github.com/KUSH-0007/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/KUSH-0007/LeetCode/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kushack07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/KUSH-0007/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/KUSH-0007/LeetCode/tree/master/0202-happy-number) |
 ## Matrix
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kushack07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [1004-max-consecutive-ones-iii](https://github.com/KUSH-0007/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/KUSH-0007/LeetCode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
