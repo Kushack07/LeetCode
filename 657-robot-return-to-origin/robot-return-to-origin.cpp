@@ -1,13 +1,13 @@
 class Solution {
 public:
     bool judgeCircle(string moves) {
-        int x=0,y=0;
-        for(char c : moves){
-            if(c=='U')y++;
-            else if (c=='D')y--;
-            else if(c=='L')x++;
-            else if(c=='R')x--;
+        int i =0,j=0;
+        for(char c:moves){
+            if(c=='U')i++;
+            else if(c=='R')j++;
+            else if(c=='D')i--;
+            else if(c=='L')j--;
         }
-        return (x==0)&&(y==0);
+        return (i==0 && j==0);
     }
 };
