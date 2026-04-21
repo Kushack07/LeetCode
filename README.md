@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/KUSH-0007/LeetCode/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/KUSH-0007/LeetCode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/KUSH-0007/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Kushack07/LeetCode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1980-find-unique-binary-string](https://github.com/KUSH-0007/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Kushack07/LeetCode/tree/master/2078-two-furthest-houses-with-different-colors) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Kushack07/LeetCode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/KUSH-0007/LeetCode/tree/master/2872-maximum-number-of-k-divisible-components) |
 ## Binary Search
 |  |
@@ -211,4 +213,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2751-robot-collisions](https://github.com/Kushack07/LeetCode/tree/master/2751-robot-collisions) |
+## Union-Find
+|  |
+| ------- |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Kushack07/LeetCode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 <!---LeetCode Topics End-->
