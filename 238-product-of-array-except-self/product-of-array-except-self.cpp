@@ -1,25 +1,22 @@
-// C++ Solution
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
+
         int n = nums.size();
-        vector<int> leftProducts(n, 1), rightProducts(n, 1), result(n, 0);
-        
-        // Calculate products of all elements to the left
-        for (int i = 1; i < n; i++) {
-            leftProducts[i] = leftProducts[i - 1] * nums[i - 1];
+        vector<int> res(n);
+
+        int pre = 1;
+        for(int i = 0; i < n; i++){
+            res[i] = pre;
+            pre *= nums[i];
         }
-        
-        // Calculate products of all elements to the right
-        for (int i = n - 2; i >= 0; i--) {
-            rightProducts[i] = rightProducts[i + 1] * nums[i + 1];
+
+        int suf = 1;
+        for(int i = n - 1; i >= 0; i--){
+            res[i] *= suf;
+            suf *= nums[i];
         }
-        
-        // Multiply left and right products
-        for (int i = 0; i < n; i++) {
-            result[i] = leftProducts[i] * rightProducts[i];
-        }
-        
-        return result;
+
+        return res;
     }
 };
