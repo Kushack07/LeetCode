@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2625-increment-submatrices-by-one](https://github.com/KUSH-0007/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 | [2751-robot-collisions](https://github.com/Kushack07/LeetCode/tree/master/2751-robot-collisions) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/KUSH-0007/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/KUSH-0007/LeetCode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/KUSH-0007/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/KUSH-0007/LeetCode/tree/master/3661-maximum-walls-destroyed-by-robots) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/Kushack07/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kushack07/LeetCode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2625-increment-submatrices-by-one](https://github.com/KUSH-0007/LeetCode/tree/master/2625-increment-submatrices-by-one) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/KUSH-0007/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2615-sum-of-distances](https://github.com/Kushack07/LeetCode/tree/master/2615-sum-of-distances) |
 | [2625-increment-submatrices-by-one](https://github.com/KUSH-0007/LeetCode/tree/master/2625-increment-submatrices-by-one) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/KUSH-0007/LeetCode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3721-longest-balanced-subarray-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3721-longest-balanced-subarray-ii) |
 ## Dynamic Programming
@@ -166,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Kushack07/LeetCode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
+| [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/KUSH-0007/LeetCode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Bit Manipulation
 |  |
