@@ -21,6 +21,7 @@ public:
 
         // build answer
         for (int i = n - 2; i >= 0; i--) {
+
             // merge segment
             if (pre[i] > suf[i + 1]) {
                 res[i] = res[i + 1];
