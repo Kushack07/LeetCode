@@ -1,29 +1,32 @@
 class Solution {
 public:
-    vector<vector<int>> threeSum(vector<int>& nums) {
-        vector<vector<int>>ans;
-        int n= nums.size();
-        sort(nums.begin(),nums.end());
-        for(int i=0;i<n-2;i++){
-            int l = i+1;
-            int h =n-1;
-            if(i>0 && nums[i]==nums[i-1])continue;
-            while(l<h){
-                int sum = nums[i]+nums[l]+nums[h];
-                if(sum==0){
-                    ans.push_back({nums[i],nums[l],nums[h]});
-                    l++;
-                    h--;
-                while(l<h && nums[l]==nums[l-1])l++;
-                while(l<h && nums[l]==nums[h+1])h++;
+    vector<vector<int>> threeSum(vector<int>& a) {
+        int n=a.size();
+        vector<vector<int>>res;
+        unordered_map<int,int>mp;
+        sort(a.begin(),a.end());
+        for(int i=0;i<n-2;i++)
+        {
+            if(i>0 && a[i]==a[i-1])
+            {
+                continue;
+            }
+            unordered_set<int>seen;
+            for(int j=i+1;j<n;j++)
+            {
+                int tar=-a[i]-a[j];
+                if(seen.count(tar))
+                {
+                    res.push_back({a[i],tar,a[j]});
+                    while(j+1<n && a[j]==a[j+1])
+                    {
+                        j++;
+                    }
                 }
-                else if(sum<0){
-                    l++;
-                }else{
-                    h--;
-                }
+                seen.insert(a[j]);
             }
         }
-        return ans ;
+        return res;
+        
     }
 };
