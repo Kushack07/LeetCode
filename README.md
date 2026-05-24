@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/KUSH-0007/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/KUSH-0007/LeetCode/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/KUSH-0007/LeetCode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
+| [1340-jump-game-v](https://github.com/Kushack07/LeetCode/tree/master/1340-jump-game-v) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/KUSH-0007/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Kushack07/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Kushack07/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/KUSH-0007/LeetCode/tree/master/0088-merge-sorted-array) |
 | [1200-minimum-absolute-difference](https://github.com/KUSH-0007/LeetCode/tree/master/1200-minimum-absolute-difference) |
+| [1340-jump-game-v](https://github.com/Kushack07/LeetCode/tree/master/1340-jump-game-v) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/KUSH-0007/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Kushack07/LeetCode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kushack07/LeetCode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/KUSH-0007/LeetCode/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Kushack07/LeetCode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
+| [1340-jump-game-v](https://github.com/Kushack07/LeetCode/tree/master/1340-jump-game-v) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
