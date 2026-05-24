@@ -1,9 +1,11 @@
 class Solution {
 public:
     int maxJumps(vector<int>& arr, int dist) {
+
         int n = arr.size();
         int maxe = 1;
         vector<int> reach(n,0);
+
         vector<int> v(n);
         iota(v.begin(), v.end() , 0);
         sort(v.begin(),v.end(), [&](const int &a, const int &b)
