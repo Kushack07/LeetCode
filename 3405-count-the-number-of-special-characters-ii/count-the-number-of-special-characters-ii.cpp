@@ -1,15 +1,47 @@
+#include <string>
+#include <vector>
+#include <unordered_set>
+using namespace std;
+
 class Solution {
 public:
     int numberOfSpecialChars(string word) {
-        bitset<27> A[2];
+        vector<int> last_lower(26, -1);
+        vector<int> first_upper(26, -1);
+        unordered_set<int> invalid;
 
-        for (auto& ch : word) {
-            int idx = ch & 31;
-            int c = (ch >> 5) & 1;
+        for (int i = 0; i < word.length(); i++) {
+            char ch = word[i];
 
-            A[c][idx] = !c || !A[0][idx];
+            if (ch >= 'a' && ch <= 'z') {
+                int idx = ch - 'a';
+
+                last_lower[idx] = i;
+
+                if (first_upper[idx] != -1) {
+                    invalid.insert(idx);
+                }
+
+            } else {
+                int idx = ch - 'A';
+
+                if (first_upper[idx] == -1) {
+                    first_upper[idx] = i;
+                }
+            }
         }
 
-        return (A[0] & A[1]).count();
+        int special_count = 0;
+
+        for (int i = 0; i < 26; i++) {
+            if (last_lower[i] != -1 &&
+                first_upper[i] != -1 &&
+                !invalid.count(i)) {
+
+                special_count++;
+            }
+        }
+
+        return special_count;
     }
 };
