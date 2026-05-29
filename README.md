@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Kushack07/LeetCode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/Kushack07/LeetCode/tree/master/3093-longest-common-suffix-queries) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Kushack07/LeetCode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/KUSH-0007/LeetCode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/KUSH-0007/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/KUSH-0007/LeetCode/tree/master/0202-happy-number) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kushack07/LeetCode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/KUSH-0007/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Kushack07/LeetCode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Simulation
 |  |
