@@ -1,70 +1,66 @@
 class Solution {
 public:
+    struct SegmentTree {
+        int n;
+        vector<int> st;
+        SegmentTree(int n) : n(n) { st.assign(4 * n + 7, 0); }
+        void update(int id, int l, int r, int pos, int val) {
+            if (pos < l || pos > r)
+                return;
+            if (l == r) {
+                st[id] = val;
+                return;
+            }
+            int m = (l + r) / 2;
+            if (pos <= m) {
+                update(id * 2 + 1, l, m, pos, val);
+            } else {
+                update(id * 2 + 2, m + 1, r, pos, val);
+            }
+            st[id] = max(st[id * 2 + 1], st[id * 2 + 2]);
+        }
+
+        int getMax(int id, int l, int r, int u, int v) {
+            if (r < u || l > v)
+                return 0;
+            if (u <= l && r <= v)
+                return st[id];
+            int m = (l + r) / 2;
+            return max(getMax(id * 2 + 1, l, m, u, v),
+                       getMax(id * 2 + 2, m + 1, r, u, v));
+        }
+
+        void update(int pos, int val) { update(0, 0, n - 1, pos, val); }
+
+        int getMax(int u, int v) { return getMax(0, 0, n - 1, u, v); }
+    };
     vector<bool> getResults(vector<vector<int>>& queries) {
-        vector<bool> ans;
-        int q = queries.size();
-        vector<int> bar;
-        map<int, pair<int,int>> mp;
-        set<pair<int,int>> s;
-        set<pair<int,int>>::iterator it;
-
-        bar.push_back(0);
-        bar.push_back(50001);
-        for(int i=0; i<q; i++){
-            if(queries[i][0] == 1){
-                bar.push_back(queries[i][1]);
-            }
-        }
-        
-        sort(bar.begin(), bar.end());
-        int bar_sz = bar.size();
-
-        mp[bar[0]] = {bar[0], bar[1]};
-        for(int i=1; i<bar_sz-1; i++){
-            mp[bar[i]] = {bar[i-1], bar[i+1]};
-        }
-        mp[bar[bar_sz-1]] = {bar[bar_sz-2], 0};
-        
-        
-        for(int i=0; i<bar.size()-1; i++){
-            s.insert({bar[i+1]-bar[i], bar[i]});
-        }
-        s.insert({0,bar[bar_sz-1]});
-        
-
-        for(int i=q-1; i>=0; i--){
-            if(queries[i][0] == 1){
-                int x = queries[i][1];
-                int x_f = mp[x].first;
-                int x_l = mp[x].second;
-                
-                s.erase({x-x_f, x_f});
-                s.erase({x_l-x, x});
-                mp[x_f].second = x_l;
-                mp[x_l].first = x_f;
-                s.insert({x_l-x_f, x_f});
-            }
-            else{
-                int x = queries[i][1];
-                int y = queries[i][2];
-                if(y>x){
-                    ans.push_back(false);
-                    continue;
+        vector<bool> res;
+        set<int> s;
+        s.insert(0);
+        SegmentTree st(50001);
+        for (vector<int> q : queries) {
+            int type = q[0];
+            if (type == 1) {
+                int x = q[1];
+                auto it = s.lower_bound(x);
+                if (it != s.end()) {
+                    int aft = *it;
+                    st.update(aft, aft - x);
                 }
-                
-                it = s.lower_bound({y,0});
-                bool can = false;
-                for (it; it!=s.end(); it++){
-                    if(y + it->second <= x){       
-                        can = true;
-                        break;
-                    }
-                }     
-                ans.push_back(can);         
+                int pre = *(--it);
+                st.update(x, x - pre);
+                s.insert(x);
+            } else {
+                int x = q[1];
+                int sz = q[2];
+
+                int d = st.getMax(0, x);
+                int d1 = *(--s.lower_bound(x));
+                d = max(d, x - d1);
+                res.push_back((sz <= d));
             }
         }
-         
-        reverse(ans.begin(), ans.end());
-        return ans;
+        return res;
     }
 };
