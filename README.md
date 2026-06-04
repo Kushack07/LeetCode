@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/KUSH-0007/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/KUSH-0007/LeetCode/tree/master/0202-happy-number) |
+| [0264-ugly-number-ii](https://github.com/Kushack07/LeetCode/tree/master/0264-ugly-number-ii) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kushack07/LeetCode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/KUSH-0007/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Kushack07/LeetCode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/KUSH-0007/LeetCode/tree/master/0202-happy-number) |
+| [0264-ugly-number-ii](https://github.com/Kushack07/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Kushack07/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/KUSH-0007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0940-fruit-into-baskets](https://github.com/KUSH-0007/LeetCode/tree/master/0940-fruit-into-baskets) |
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/0152-maximum-product-subarray) |
+| [0264-ugly-number-ii](https://github.com/Kushack07/LeetCode/tree/master/0264-ugly-number-ii) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/KUSH-0007/LeetCode/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Kushack07/LeetCode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1340-jump-game-v](https://github.com/Kushack07/LeetCode/tree/master/1340-jump-game-v) |
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/Kushack07/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Kushack07/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 ## Database
