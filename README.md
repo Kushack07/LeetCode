@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Kushack07/LeetCode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/KUSH-0007/LeetCode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushack07/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/KUSH-0007/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Kushack07/LeetCode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2324-find-triangular-sum-of-an-array](https://github.com/KUSH-0007/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Kushack07/LeetCode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushack07/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushack07/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/Kushack07/LeetCode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Simulation
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushack07/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/KUSH-0007/LeetCode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/Kushack07/LeetCode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
@@ -250,12 +253,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/KUSH-0007/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/KUSH-0007/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/KUSH-0007/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushack07/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Tree
 |  |
 | ------- |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Kushack07/LeetCode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/KUSH-0007/LeetCode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushack07/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushack07/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -264,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Kushack07/LeetCode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/KUSH-0007/LeetCode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushack07/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushack07/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Binary Search
 |  |
 | ------- |
