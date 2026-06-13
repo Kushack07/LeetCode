@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Kushack07/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0055-jump-game](https://github.com/Kushack07/LeetCode/tree/master/0055-jump-game) |
 | [0075-sort-colors](https://github.com/Kushack07/LeetCode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/Kushack07/LeetCode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/KUSH-0007/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0152-maximum-product-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kushack07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Kushack07/LeetCode/tree/master/0078-subsets) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/KUSH-0007/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/KUSH-0007/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/KUSH-0007/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
@@ -326,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Kushack07/LeetCode/tree/master/0078-subsets) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/KUSH-0007/LeetCode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/KUSH-0007/LeetCode/tree/master/1980-find-unique-binary-string) |
 ## Stack
