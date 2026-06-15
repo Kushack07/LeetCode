@@ -11,6 +11,6 @@ public:
                 res[j]=false;
             }
         }
-        return count(res.begin(),res.end(),true);
+        return accumulate(res.begin(),res.end(),0);
     }
 };
