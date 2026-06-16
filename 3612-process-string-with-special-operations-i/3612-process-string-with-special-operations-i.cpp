@@ -5,7 +5,7 @@ string res;
         for(char c:s)
         {
             if(c=='*'){
-              if(!res.empty())  res.pop_back();
+              if(res.size())  res.pop_back();
             }
             else if(c=='%') reverse(res.begin(),res.end());
             else if(c=='#') res+=res;
