@@ -5,9 +5,9 @@ public:
         int cnt = 0;
 
         while (num > 0) {
-            int digit = num % 10;
+            int d = num % 10;
 
-            if (digit != 0 && original % digit == 0) {
+            if (d != 0 && original % d == 0) {
                 cnt++;
             }
 
