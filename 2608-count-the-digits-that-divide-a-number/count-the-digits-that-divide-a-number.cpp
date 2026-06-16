@@ -1,19 +1,17 @@
 class Solution {
 public:
-    int countDigits(int num) {
-        int original = num;
-        int cnt = 0;
-
-        while (num > 0) {
-            int d = num % 10;
-
-            if (d != 0 && original % d == 0) {
-                cnt++;
-            }
-
-            num /= 10;
+vector<int>d;
+int cnt=0;
+    int countDigits(int n) {
+        int num=n;
+       while(n>0){
+        d.push_back(n%10);n=n/10;
+       }
+       for(int i:d) cout<<i<<" ";
+        for(int i:d)
+        {
+            if(!(num%i)) cnt++;
         }
-
         return cnt;
     }
 };
