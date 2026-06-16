@@ -1,0 +1,16 @@
+class Solution {
+public:
+string res;
+    string processStr(string s) {
+        for(char c:s)
+        {
+            if(c=='*'){
+              if(!res.empty())  res.pop_back();
+            }
+            else if(c=='%') reverse(res.begin(),res.end());
+            else if(c=='#') res+=res;
+            else res.push_back(c);
+        }
+        return res;
+    }
+};
