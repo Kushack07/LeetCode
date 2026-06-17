@@ -1,19 +1,17 @@
 class Solution {
 public:
-static bool cmp(pair<int,int>&a,pair<int,int>&b)
-{
-    if(a.second!=b.second) return a.second<b.second;
-    return a.first>b.first;
-}
-    vector<int> frequencySort(vector<int>& a) {
-        map<int,int>f;for(int i:a)f[i]++;
-        vector<pair<int,int>>x(f.begin(),f.end());
-        sort(x.begin(),x.end(),cmp);
-        vector<int>r;
-        for(auto &i:x)
-        {
-            r.insert(r.end(),i.second,i.first);
+    vector<int> frequencySort(vector<int>& nums) {
+        unordered_map<int,int>fre;
+        for(int num:nums){
+            fre[num]++;
         }
-        return r;
+        sort(nums.begin(),nums.end(),[&](int n1,int n2){
+            if(fre[n1]!=fre[n2]){
+                return fre[n1]<fre[n2];
+            }else{
+                return n2<n1;
+            }
+        });
+        return nums;
     }
 };
