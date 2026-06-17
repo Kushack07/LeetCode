@@ -17,14 +17,20 @@ int sum(vector<int>d)
     for(int i:d) s+=i;
     return s;
 }
+int f1(int n)
+{
+    if(!n) return 0;
+    return 1+(n-1)%9;
+}
     int addDigits(int n) {
-        vector<int>d=f(n);
-        if(n==0) return 0;
-        while(d.size()!=1)
-        {
-            int cs=sum(d);
-            d=f(cs);
-        }
-        return d[0];
+        // vector<int>d=f(n);
+        // if(n==0) return 0;
+        // while(d.size()!=1)
+        // {
+        //     int cs=sum(d);
+        //     d=f(cs);
+        // }
+        // return d[0];
+        return f1(n);
     }
 };
