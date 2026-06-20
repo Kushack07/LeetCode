@@ -1,6 +1,7 @@
 class Solution {
 public:
-    bool checkSubarraySum(vector<int>&a, int k) {
+typedef vector<int> vi;
+    bool checkSubarraySum(vi&a, int k) {
         map<int,int>reminder;
         int n=a.size();
         /*
