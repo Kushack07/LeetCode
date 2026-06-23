@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/KUSH-0007/LeetCode/tree/master/0289-game-of-life) |
 | [0322-coin-change](https://github.com/Kushack07/LeetCode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Kushack07/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0416-partition-equal-subset-sum](https://github.com/Kushack07/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0523-continuous-subarray-sum](https://github.com/Kushack07/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/KUSH-0007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/Kushack07/LeetCode/tree/master/0643-maximum-average-subarray-i) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0264-ugly-number-ii](https://github.com/Kushack07/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0322-coin-change](https://github.com/Kushack07/LeetCode/tree/master/0322-coin-change) |
+| [0416-partition-equal-subset-sum](https://github.com/Kushack07/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [1143-longest-common-subsequence](https://github.com/Kushack07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1288-maximum-subarray-sum-with-one-deletion](https://github.com/KUSH-0007/LeetCode/tree/master/1288-maximum-subarray-sum-with-one-deletion) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Kushack07/LeetCode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
