@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1344-angle-between-hands-of-a-clock](https://github.com/Kushack07/LeetCode/tree/master/1344-angle-between-hands-of-a-clock) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kushack07/LeetCode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/KUSH-0007/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2396-strictly-palindromic-number](https://github.com/Kushack07/LeetCode/tree/master/2396-strictly-palindromic-number) |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Kushack07/LeetCode/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Kushack07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
 | [2761-prime-pairs-with-target-sum](https://github.com/Kushack07/LeetCode/tree/master/2761-prime-pairs-with-target-sum) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/KUSH-0007/LeetCode/tree/master/0202-happy-number) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Kushack07/LeetCode/tree/master/0786-k-th-smallest-prime-fraction) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Kushack07/LeetCode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+| [2396-strictly-palindromic-number](https://github.com/Kushack07/LeetCode/tree/master/2396-strictly-palindromic-number) |
 | [2540-minimum-common-value](https://github.com/Kushack07/LeetCode/tree/master/2540-minimum-common-value) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Kushack07/LeetCode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Kushack07/LeetCode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -519,4 +521,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Kushack07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+## Brainteaser
+|  |
+| ------- |
+| [2396-strictly-palindromic-number](https://github.com/Kushack07/LeetCode/tree/master/2396-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
