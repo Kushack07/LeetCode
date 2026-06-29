@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3742-maximum-path-score-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/Kushack07/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/Kushack07/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
+| [3898-find-the-degree-of-each-vertex](https://github.com/Kushack07/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 | [3920-maximize-fixed-points-after-deletions](https://github.com/Kushack07/LeetCode/tree/master/3920-maximize-fixed-points-after-deletions) |
 | [3921-score-validator](https://github.com/Kushack07/LeetCode/tree/master/3921-score-validator) |
 ## Math
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/3742-maximum-path-score-in-a-grid) |
+| [3898-find-the-degree-of-each-vertex](https://github.com/Kushack07/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -507,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Kushack07/LeetCode/tree/master/0207-course-schedule) |
+| [3898-find-the-degree-of-each-vertex](https://github.com/Kushack07/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Topological Sort
 |  |
 | ------- |
