@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/KUSH-0007/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2751-robot-collisions](https://github.com/Kushack07/LeetCode/tree/master/2751-robot-collisions) |
 | [2761-prime-pairs-with-target-sum](https://github.com/Kushack07/LeetCode/tree/master/2761-prime-pairs-with-target-sum) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/KUSH-0007/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Kushack07/LeetCode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1914-cyclically-rotating-a-grid](https://github.com/Kushack07/LeetCode/tree/master/1914-cyclically-rotating-a-grid) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kushack07/LeetCode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2625-increment-submatrices-by-one](https://github.com/KUSH-0007/LeetCode/tree/master/2625-increment-submatrices-by-one) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/3742-maximum-path-score-in-a-grid) |
@@ -383,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/KUSH-0007/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2540-minimum-common-value](https://github.com/Kushack07/LeetCode/tree/master/2540-minimum-common-value) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3161-block-placement-queries](https://github.com/Kushack07/LeetCode/tree/master/3161-block-placement-queries) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Kushack07/LeetCode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Kushack07/LeetCode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -396,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Kushack07/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Kushack07/LeetCode/tree/master/0786-k-th-smallest-prime-fraction) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Kushack07/LeetCode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Kushack07/LeetCode/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Database
@@ -452,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Kushack07/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Kushack07/LeetCode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Trie
 |  |
 | ------- |
@@ -465,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Kushack07/LeetCode/tree/master/0322-coin-change) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Kushack07/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Number Theory
 |  |
