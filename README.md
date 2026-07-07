@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Kushack07/LeetCode/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/Kushack07/LeetCode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Kushack07/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3765-complete-prime-number](https://github.com/Kushack07/LeetCode/tree/master/3765-complete-prime-number) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/Kushack07/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/Kushack07/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
