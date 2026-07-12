@@ -6,19 +6,19 @@ public:
         if (n == 0)
             return {};
 
-        set<int> uniqueElements(arr.begin(), arr.end());
+        set<int> uniqueElements(arr.begin(), arr.end()); //store only the unique element
 
-        unordered_map<int, int> ranks;
+        unordered_map<int, int> ranks; //dublicate are removed automatically 
 
-        int rank = 1;
+        int rank = 1;//smallest number assign and get the rank as 1 
 
         for (int ele : uniqueElements)
-            ranks[ele] = rank++;
+            ranks[ele] = rank++;   //assign the rank one by one 
 
-        vector<int> ans;
+        vector<int> ans; // create a vector ans in that store the values 
 
         for (int ele : arr)
-            ans.push_back(ranks[ele]);
+            ans.push_back(ranks[ele]); // push the ans rank element so their position didn;t differ from the orignal placed 
 
         return ans;
     }
