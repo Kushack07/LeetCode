@@ -448,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Kushack07/LeetCode/tree/master/0204-count-primes) |
+| [1291-sequential-digits](https://github.com/Kushack07/LeetCode/tree/master/1291-sequential-digits) |
 | [2761-prime-pairs-with-target-sum](https://github.com/Kushack07/LeetCode/tree/master/2761-prime-pairs-with-target-sum) |
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
 | [3713-longest-balanced-substring-i](https://github.com/KUSH-0007/LeetCode/tree/master/3713-longest-balanced-substring-i) |
