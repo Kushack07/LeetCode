@@ -2,7 +2,7 @@ class Solution {
 public:
     int distinctAverages(vector<int>& nums) {
         sort(nums.begin(),nums.end());
-        set<int>st;
+        set<long long >st;
         int i=0 ; 
         int j=nums.size()-1;
         while(i<j){
