@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
         int n= nums.size();
+        vector<int>ans ;
         unordered_map<int,int>freq;
         for(int n:nums){
             freq[n]++;
@@ -10,7 +11,6 @@ public:
         for(auto it:freq){
             pq.push({it.second,it.first});
         }
-        vector<int>ans; 
         while(k--){
             ans.push_back(pq.top().second);
             pq.pop();
