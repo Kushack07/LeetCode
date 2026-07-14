@@ -3,7 +3,7 @@ public:
     int maximumSwap(int num) {
         string s = to_string(num);/*convert the num to string*/
 
-        vector<int> last(10); /*covert the vector in range of 9 */
+        vector<int> last(100); /*covert the vector in range of 9 */
 
         for (int i = 0; i < s.size(); i++) {
             last[s[i] - '0'] = i; /*store only the non zero value*/
@@ -21,3 +21,13 @@ public:
         return num;
     }
 };
+
+/*
+class solution{
+public:
+    int maxistring(int num){
+        string s = to_string(num);
+        vector<int>ans;
+
+    }
+}*/
