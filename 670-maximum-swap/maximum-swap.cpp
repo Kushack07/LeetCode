@@ -28,6 +28,17 @@ public:
     int maxistring(int num){
         string s = to_string(num);
         vector<int>ans;
-
+        for(int i =0 ; i< s.size();i++){
+            ans[s[i]-'0'] = i ;
+        }
+        for(int i=0 ;i< s.size();i++){
+            for(int d= 9 ;d>s[i]-'0' ;d--){
+                if(ans[d]>i){
+                    swap(s[i],s[ans[d]]);
+                    return stoi(s);
+                }   
+            }
+        }
+        return ans ;
     }
 }*/
