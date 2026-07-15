@@ -2,21 +2,41 @@ class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
 
-        int n = nums.size();
-        vector<int> res(n);
+        int zeroCount = 0;
+        long long product = 1;
 
-        int pre = 1;
-        for(int i = 0; i < n; i++){
-            res[i] = pre;
-            pre *= nums[i];
+        // Calculate product of non-zero elements
+        for (int x : nums) {
+            if (x == 0)
+                zeroCount++;
+            else
+                product *= x;
         }
 
-        int suf = 1;
-        for(int i = n - 1; i >= 0; i--){
-            res[i] *= suf;
-            suf *= nums[i];
+        vector<int> ans;
+
+        for (int x : nums) {
+
+            // More than one zero
+            if (zeroCount > 1) {
+                ans.push_back(0);
+            }
+
+            // Exactly one zero
+            else if (zeroCount == 1) {
+
+                if (x == 0)
+                    ans.push_back(product);
+                else
+                    ans.push_back(0);
+            }
+
+            // No zeroes
+            else {
+                ans.push_back(product / x);
+            }
         }
 
-        return res;
+        return ans;
     }
 };
