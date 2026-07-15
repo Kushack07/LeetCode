@@ -1,13 +1,13 @@
 class Solution {
 public:
     int gcdOfOddEvenSums(int n) {
-        int sumOdd =0 ;
-        int sumEven = 0 ;
-        if(n%2 !=0){
-            sumOdd+=n; 
+        int se =0 ;
+        int so =0; 
+        if(n%2!=0){
+            so+=n;
         }else{
-            sumEven+=n;
+            se+=n;
         }
-        return std::gcd(sumOdd,sumEven);
+        return std::gcd(se,so);
     }
 };
