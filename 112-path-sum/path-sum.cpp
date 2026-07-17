@@ -15,12 +15,10 @@ public:
         if(root == nullptr){
             return false; 
         }
-        if (root->left ==nullptr && root->right == nullptr){
+        if(root->left == nullptr && root->right ==nullptr){
             return targetSum ==root->val ;
-        }
-        targetSum -= root->val ; 
-        
-        return hasPathSum(root->left , targetSum) || hasPathSum(root->right, targetSum);
-        
+        } 
+        targetSum -= root->val; 
+        return hasPathSum(root->left ,targetSum)||hasPathSum(root->right ,targetSum);
     }
 };
