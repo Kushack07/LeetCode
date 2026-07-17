@@ -1,24 +1,30 @@
-// C++ implementation
 class Solution {
 public:
-    int index = 0;
-    unordered_map<int, int> map;
+    int preorderIndex = 0;
+    unordered_map<int, int> inorderMap;
 
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        for (int i = 0; i < inorder.size(); ++i)
-            map[inorder[i]] = i;
-        return helper(preorder, 0, inorder.size() - 1);
+    TreeNode* build(int left, int right, vector<int>& preorder) {
+
+        if (left > right)
+            return nullptr;
+
+        int rootValue = preorder[preorderIndex++];
+        TreeNode* root = new TreeNode(rootValue);
+
+        int inorderIndex = inorderMap[rootValue];
+
+        root->left = build(left, inorderIndex - 1, preorder);
+        root->right = build(inorderIndex + 1, right, preorder);
+
+        return root;
     }
 
-    TreeNode* helper(vector<int>& preorder, int start, int end) {
-        if (start > end) return nullptr;
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
 
-        int rootVal = preorder[index++];
-        TreeNode* root = new TreeNode(rootVal);
-        int mid = map[rootVal];
+        for (int i = 0; i < inorder.size(); i++) {
+            inorderMap[inorder[i]] = i;
+        }
 
-        root->left = helper(preorder, start, mid - 1);
-        root->right = helper(preorder, mid + 1, end);
-        return root;
+        return build(0, inorder.size() - 1, preorder);
     }
 };
