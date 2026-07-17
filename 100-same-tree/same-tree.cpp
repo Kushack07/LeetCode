@@ -16,11 +16,11 @@ public:
             return true;
         }
         if(p==nullptr || q==nullptr){
-            return false;
+            return false ;
         }
-        if(p->val !=q->val){
-            return false;
+        if(p->val != q->val){
+            return false; 
         }
-        return isSameTree(p->left,q->left)&&isSameTree(p->right,q->right);
+        return isSameTree(p->left,q->left) && isSameTree(p->right,q->right);
     }
 };
