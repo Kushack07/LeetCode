@@ -4,23 +4,30 @@ public:
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<vector<int>> ans(m, vector<int>(n, 0));
+        while (k--) {
+            vector<vector<int>> temp(m, vector<int>(n));
 
-        k %= (m * n);
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-
-                int currPos = i * n + j;
-                int newPos = (currPos + k) % (m * n);
-
-                int newRow = newPos / n;
-                int newCol = newPos % n;
-
-                ans[newRow][newCol] = grid[i][j];
+                    // Normal right shift
+                    if (j != n - 1) {
+                        temp[i][j + 1] = grid[i][j];
+                    }
+                    // Last column but not last row
+                    else if (i != m - 1) {
+                        temp[i + 1][0] = grid[i][j];
+                    }
+                    // Last element of the grid
+                    else {
+                        temp[0][0] = grid[i][j];
+                    }
+                }
             }
+
+            grid = temp;
         }
 
-        return ans;
+        return grid;
     }
 };
