@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/Kushack07/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/KUSH-0007/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0242-valid-anagram](https://github.com/KUSH-0007/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Kushack07/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Kushack07/LeetCode/tree/master/0786-k-th-smallest-prime-fraction) |
 | [1200-minimum-absolute-difference](https://github.com/KUSH-0007/LeetCode/tree/master/1200-minimum-absolute-difference) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KUSH-0007/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/Kushack07/LeetCode/tree/master/0038-count-and-say) |
 | [0125-valid-palindrome](https://github.com/KUSH-0007/LeetCode/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/KUSH-0007/LeetCode/tree/master/0242-valid-anagram) |
 | [0763-partition-labels](https://github.com/KUSH-0007/LeetCode/tree/master/0763-partition-labels) |
 | [1143-longest-common-subsequence](https://github.com/Kushack07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Kushack07/LeetCode/tree/master/1189-maximum-number-of-balloons) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Kushack07/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0202-happy-number](https://github.com/KUSH-0007/LeetCode/tree/master/0202-happy-number) |
+| [0242-valid-anagram](https://github.com/KUSH-0007/LeetCode/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/Kushack07/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Kushack07/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0523-continuous-subarray-sum](https://github.com/Kushack07/LeetCode/tree/master/0523-continuous-subarray-sum) |
