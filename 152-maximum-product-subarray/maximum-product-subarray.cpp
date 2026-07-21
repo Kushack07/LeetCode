@@ -1,27 +1,40 @@
-#include <vector>
-#include <algorithm>
-using namespace std;
-
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int n = nums.size();
 
-        int maxEnding = nums[0];
-        int minEnding = nums[0];
+        // maxi = Maximum product of a subarray ending at current index
+        int maxi = nums[0];
+
+        // mini = Minimum product of a subarray ending at current index
+        // Needed because multiplying two negative numbers gives a positive.
+        int mini = nums[0];
+
+        // Stores the maximum product found so far.
         int ans = nums[0];
 
-        for(int i = 1; i < n; i++) {
+        // Traverse the array from the second element
+        for (int i = 1; i < nums.size(); i++) {
 
-            if(nums[i] < 0)
-                swap(maxEnding, minEnding);
+            // If current number is negative,
+            // maximum becomes minimum and minimum becomes maximum.
+            if (nums[i] < 0)
+                swap(maxi, mini);
 
-            maxEnding = max(nums[i], maxEnding * nums[i]);
-            minEnding = min(nums[i], minEnding * nums[i]);
+            // Either:
+            // 1. Start a new subarray from nums[i]
+            // 2. Extend the previous maximum product subarray
+            maxi = max(nums[i], maxi * nums[i]);
 
-            ans = max(ans, maxEnding);
+            // Either:
+            // 1. Start a new subarray from nums[i]
+            // 2. Extend the previous minimum product subarray
+            mini = min(nums[i], mini * nums[i]);
+
+            // Update the overall maximum product
+            ans = max(ans, maxi);
         }
 
+        // Return the maximum product of any subarray
         return ans;
     }
 };
