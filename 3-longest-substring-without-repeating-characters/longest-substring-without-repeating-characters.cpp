@@ -11,7 +11,7 @@ public:
                 fq[s[low]]--;
                 low++;
             }
-            ans= max(ans,high-low+1);
+            ans=max(ans,high-low+1);
         }
         return ans; 
     }
