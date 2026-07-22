@@ -16,6 +16,6 @@ public:
             }
         }
         int l = dp[n][m];
-        return n-l ;
+        return m-l ;
     }
 };
