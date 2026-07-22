@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/KUSH-0007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/Kushack07/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/KUSH-0007/LeetCode/tree/master/0717-1-bit-and-2-bit-characters) |
+| [0724-find-pivot-index](https://github.com/KUSH-0007/LeetCode/tree/master/0724-find-pivot-index) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Kushack07/LeetCode/tree/master/0786-k-th-smallest-prime-fraction) |
 | [0940-fruit-into-baskets](https://github.com/KUSH-0007/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/KUSH-0007/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/Kushack07/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/KUSH-0007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/KUSH-0007/LeetCode/tree/master/0724-find-pivot-index) |
 | [1004-max-consecutive-ones-iii](https://github.com/KUSH-0007/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/KUSH-0007/LeetCode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1732-find-the-highest-altitude](https://github.com/KUSH-0007/LeetCode/tree/master/1732-find-the-highest-altitude) |
