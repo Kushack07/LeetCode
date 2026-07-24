@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Kushack07/LeetCode/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/Kushack07/LeetCode/tree/master/0258-add-digits) |
 | [0264-ugly-number-ii](https://github.com/Kushack07/LeetCode/tree/master/0264-ugly-number-ii) |
+| [0371-sum-of-two-integers](https://github.com/Kushack07/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0523-continuous-subarray-sum](https://github.com/Kushack07/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [1250-check-if-it-is-a-good-array](https://github.com/Kushack07/LeetCode/tree/master/1250-check-if-it-is-a-good-array) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Kushack07/LeetCode/tree/master/1344-angle-between-hands-of-a-clock) |
@@ -380,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Kushack07/LeetCode/tree/master/0078-subsets) |
+| [0371-sum-of-two-integers](https://github.com/Kushack07/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/KUSH-0007/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/KUSH-0007/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/KUSH-0007/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
