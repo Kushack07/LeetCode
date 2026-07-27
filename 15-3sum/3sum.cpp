@@ -1,32 +1,47 @@
 class Solution {
 public:
-    vector<vector<int>> threeSum(vector<int>& a) {
-        int n=a.size();
-        vector<vector<int>>res;
-        unordered_map<int,int>mp;
-        sort(a.begin(),a.end());
-        for(int i=0;i<n-2;i++)
-        {
-            if(i>0 && a[i]==a[i-1])
-            {
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        vector<vector<int>> ans;
+        sort(nums.begin(), nums.end());
+
+        int n = nums.size();
+
+        for (int i = 0; i < n - 2; i++) {
+
+            // Skip duplicates
+            if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
-            unordered_set<int>seen;
-            for(int j=i+1;j<n;j++)
-            {
-                int tar=-a[i]-a[j];
-                if(seen.count(tar))
-                {
-                    res.push_back({a[i],tar,a[j]});
-                    while(j+1<n && a[j]==a[j+1])
-                    {
-                        j++;
+
+            int low = i + 1;
+            int high = n - 1;
+
+            while (low < high) {
+                int sum = nums[i] + nums[low] + nums[high];
+
+                if (sum == 0) {
+                    ans.push_back({nums[i], nums[low], nums[high]});
+
+                    // Skip duplicates
+                    while (low < high && nums[low] == nums[low + 1]) {
+                        low++;
                     }
+                    while (low < high && nums[high] == nums[high - 1]) {
+                        high--;
+                    }
+
+                    low++;
+                    high--;
                 }
-                seen.insert(a[j]);
+                else if (sum < 0) {
+                    low++;
+                }
+                else {
+                    high--;
+                }
             }
         }
-        return res;
-        
+
+        return ans;
     }
 };
