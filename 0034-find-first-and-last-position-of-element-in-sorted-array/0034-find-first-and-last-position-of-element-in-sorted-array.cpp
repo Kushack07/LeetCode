@@ -1,12 +1,21 @@
 class Solution {
 public:
-    vector<int> searchRange(vector<int>& a, int t) {
-        vector<int>x;int idx=0;
-        for(int i:a){
-            if(i==t) x.push_back(idx);
-            idx++;
+    vector<int> searchRange(vector<int>& nums, int target) {
+        int left = 0;
+        int right = nums.size() - 1;
+
+        while (left <= right) {
+            if (nums[left] == target && nums[right] == target) {
+                return {left, right};
+            }
+
+            if (nums[left] != target)
+                left++;
+
+            if (nums[right] != target)
+                right--;
         }
-        if(x.empty()) return {-1,-1};
-    return {x[0],x[x.size()-1]};
+
+        return {-1, -1};
     }
 };
