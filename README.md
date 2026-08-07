@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3115-maximum-prime-difference](https://github.com/Kushack07/LeetCode/tree/master/3115-maximum-prime-difference) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Kushack07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Kushack07/LeetCode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3556-sum-of-largest-prime-substrings](https://github.com/Kushack07/LeetCode/tree/master/3556-sum-of-largest-prime-substrings) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushack07/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushack07/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2126-destroying-asteroids](https://github.com/Kushack07/LeetCode/tree/master/2126-destroying-asteroids) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/KUSH-0007/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Kushack07/LeetCode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/Kushack07/LeetCode/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/KUSH-0007/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Kushack07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3093-longest-common-suffix-queries](https://github.com/Kushack07/LeetCode/tree/master/3093-longest-common-suffix-queries) |
 | [3110-score-of-a-string](https://github.com/Kushack07/LeetCode/tree/master/3110-score-of-a-string) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Kushack07/LeetCode/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/Kushack07/LeetCode/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/KUSH-0007/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -487,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Kushack07/LeetCode/tree/master/0078-subsets) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/KUSH-0007/LeetCode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/KUSH-0007/LeetCode/tree/master/1980-find-unique-binary-string) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Stack
 |  |
 | ------- |
@@ -530,6 +534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
 | [3115-maximum-prime-difference](https://github.com/Kushack07/LeetCode/tree/master/3115-maximum-prime-difference) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Kushack07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3556-sum-of-largest-prime-substrings](https://github.com/Kushack07/LeetCode/tree/master/3556-sum-of-largest-prime-substrings) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3765-complete-prime-number](https://github.com/Kushack07/LeetCode/tree/master/3765-complete-prime-number) |
