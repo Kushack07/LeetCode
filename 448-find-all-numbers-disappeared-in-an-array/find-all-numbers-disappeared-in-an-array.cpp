@@ -1,25 +1,17 @@
 class Solution {
-private:
-    void cyclicSort(vector<int>& nums)
-    {
-        int i=0;
-        while(i<nums.size())
-        {
-            if(nums[i] != nums[nums[i]-1])
-                swap(nums[i],nums[nums[i]-1]);
-            else
-                i++;
-        }
-    }
 public:
-    vector<int> findDisappearedNumbers(vector<int>& nums) 
-    {
-        vector<int> ans;
-        cyclicSort(nums);
-        for(int i=0; i<nums.size(); i++)
-            if(nums[i] != i+1)
-                ans.push_back(i+1);
-        return ans;
+    vector<int> findDisappearedNumbers(vector<int>& nums) {
+        int n= nums.size();
+        vector<bool>seen(n+1,false);
+        for(int x: nums){
+            seen[x]=true;
+        }
+        vector<int>ans;
+        for(int i = 1 ; i<= n;  i++){
+            if(!seen[i]){
+                ans.push_back(i);
+            }
+        }
+        return ans ; 
     }
 };
-
