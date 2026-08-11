@@ -2,10 +2,13 @@ class Solution {
 public:
     int missingNumber(vector<int>& nums) {
         int n = nums.size();
-        int exp = n*(n+1)/2;
-        int act = 0;
-        for(int num: nums)
-            act+= num;
-            return exp - act ; 
+        sort(nums.begin(),nums.end());
+        int missing=0; 
+        for(int x:nums){
+            if(x==missing){
+                missing++; 
+            }
+        }
+    return missing; 
     }
 };
