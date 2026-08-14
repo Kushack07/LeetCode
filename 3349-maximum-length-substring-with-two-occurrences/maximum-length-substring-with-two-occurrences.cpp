@@ -1,24 +1,19 @@
 class Solution {
 public:
-    int maximumLengthSubstring(string& s) {
-        int freq[26]={0};
-        int l=0, n=s.size(), len=0;
-        for(int r=0; r<n; r++){
-            int x=s[r]-'a';
-            freq[x]++;
-            while(l<r && freq[x]>2){
-                freq[s[l]-'a']--;
-                l++;
-            }
-            len=max(len, r-l+1);
+    int maximumLengthSubstring(string s) {
+        int res = 0;
+        uint64_t mask = 0;
+        
+        for (int l = 0, r = 0; r < s.length(); r++) {
+            int k = (s[r] & 31) << 1;
+            mask += 1ULL << k;
+            
+            while (((mask >> k) & 3) == 3)
+                mask -= 1ULL << ((s[l++] & 31) << 1);
+                
+            res = max(res, r - l + 1);
         }
-        return len;
+        
+        return res;
     }
 };
-
-auto init = []() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    return 'c';
-}();
