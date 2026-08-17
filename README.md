@@ -573,11 +573,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Kushack07/LeetCode/tree/master/0143-reorder-list) |
+| [0206-reverse-linked-list](https://github.com/KUSH-0007/LeetCode/tree/master/0206-reverse-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Kushack07/LeetCode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Kushack07/LeetCode/tree/master/0143-reorder-list) |
+| [0206-reverse-linked-list](https://github.com/KUSH-0007/LeetCode/tree/master/0206-reverse-linked-list) |
 ## Graph Theory
 |  |
 | ------- |
