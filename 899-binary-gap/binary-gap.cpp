@@ -1,20 +1,26 @@
 class Solution {
 public:
     int binaryGap(int n) {
-        string s = bitset<32>(n).to_string();
-        
-        int last = -1;
-        int ans = 0;
-        
-        for (int i = 0; i < 32; i++) {
-            if (s[i] == '1') {
-                if (last != -1) {
-                    ans = max(ans, i - last);
+        int maxg = 0;
+        int cur = 0;
+        bool isone = false;
+
+        while (n > 0) {
+            if (n & 1) {
+                if (isone) {
+                    maxg = max(maxg, cur + 1);
                 }
-                last = i;
+
+                isone = true;
+                cur = 0;
             }
+            else if (isone) {
+                cur++;
+            }
+
+            n >>= 1;
         }
-        
-        return ans;
+
+        return maxg;
     }
 };
