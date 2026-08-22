@@ -1,16 +1,16 @@
 class Solution {
 public:
     bool checkDivisibility(int n) {
-        int og = n ; 
-        int sum =0 ; 
-        int prod =1; 
+        int ks =n; 
+        int sum = 0; 
+        int prod = 1; 
         while(n>0){
             int digit = n%10; 
-            sum += digit ; 
-            prod *= digit ; 
+            sum += digit; 
+            prod *= digit;
             n/=10;
         }
-        int total = sum+prod; 
-        return og%total == 0;
+        int total = sum +prod ;
+        return ks%total==0;
     }
 };
