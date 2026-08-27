@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Kushack07/LeetCode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Kushack07/LeetCode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Kushack07/LeetCode/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/KUSH-0007/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Sorting
 |  |
 | ------- |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3556-sum-of-largest-prime-substrings](https://github.com/Kushack07/LeetCode/tree/master/3556-sum-of-largest-prime-substrings) |
 | [3612-process-string-with-special-operations-i](https://github.com/Kushack07/LeetCode/tree/master/3612-process-string-with-special-operations-i) |
 | [3713-longest-balanced-substring-i](https://github.com/KUSH-0007/LeetCode/tree/master/3713-longest-balanced-substring-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/KUSH-0007/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/Kushack07/LeetCode/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3921-score-validator](https://github.com/Kushack07/LeetCode/tree/master/3921-score-validator) |
 ## Hash Table
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3556-sum-of-largest-prime-substrings](https://github.com/Kushack07/LeetCode/tree/master/3556-sum-of-largest-prime-substrings) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3713-longest-balanced-substring-i](https://github.com/KUSH-0007/LeetCode/tree/master/3713-longest-balanced-substring-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/KUSH-0007/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3721-longest-balanced-subarray-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Kushack07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/Kushack07/LeetCode/tree/master/3760-maximum-substrings-with-distinct-start) |
@@ -315,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/KUSH-0007/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3713-longest-balanced-substring-i](https://github.com/KUSH-0007/LeetCode/tree/master/3713-longest-balanced-substring-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/KUSH-0007/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Kushack07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Two Pointers
 |  |
@@ -501,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2761-prime-pairs-with-target-sum](https://github.com/Kushack07/LeetCode/tree/master/2761-prime-pairs-with-target-sum) |
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
 | [3713-longest-balanced-substring-i](https://github.com/KUSH-0007/LeetCode/tree/master/3713-longest-balanced-substring-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/KUSH-0007/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3765-complete-prime-number](https://github.com/Kushack07/LeetCode/tree/master/3765-complete-prime-number) |
 ## Backtracking
 |  |
