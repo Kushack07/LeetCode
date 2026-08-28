@@ -2,6 +2,7 @@ class Solution {
 public:
     string buildPalindrome(const string& half, char middle) {
         string result = half;
+
         if (middle != 0) {
             result += middle;
         }
