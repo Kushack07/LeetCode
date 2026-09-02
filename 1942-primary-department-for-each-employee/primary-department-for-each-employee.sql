@@ -7,4 +7,4 @@ where employee_id in (
     group by employee_id
     having count(*) = 1
 )
-or primary_flag = 'Y';
+or primary_flag = 'Y'
