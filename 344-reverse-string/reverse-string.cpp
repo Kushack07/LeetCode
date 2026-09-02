@@ -1,6 +1,11 @@
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-        return reverse(s.begin(),s.end());
+        int n = s.size();
+        vector<char>ans ;
+        for(int i =n-1;i>=0;i--){
+            ans.push_back(s[i]);
+        }
+        s=ans; 
     }
 };
