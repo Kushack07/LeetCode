@@ -10,7 +10,6 @@ public:
             if (x % 2 == 1)
                 oddCnt++;
         }
-
         return mn % 2 == 1 || oddCnt == 0;
     }
 };
