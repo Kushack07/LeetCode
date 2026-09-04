@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/Kushack07/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/Kushack07/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Kushack07/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
+| [3903-smallest-stable-index-i](https://github.com/KUSH-0007/LeetCode/tree/master/3903-smallest-stable-index-i) |
 | [3920-maximize-fixed-points-after-deletions](https://github.com/Kushack07/LeetCode/tree/master/3920-maximize-fixed-points-after-deletions) |
 | [3921-score-validator](https://github.com/Kushack07/LeetCode/tree/master/3921-score-validator) |
 ## Math
@@ -381,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3699-number-of-zigzag-arrays-i](https://github.com/KUSH-0007/LeetCode/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Kushack07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3903-smallest-stable-index-i](https://github.com/KUSH-0007/LeetCode/tree/master/3903-smallest-stable-index-i) |
 ## Dynamic Programming
 |  |
 | ------- |
