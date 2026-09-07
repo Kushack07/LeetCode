@@ -1,32 +1,24 @@
 class Solution {
 public:
+    int ans = INT_MIN;
 
-    int height(TreeNode* root, int &res) {
+    int solve(TreeNode* root) {
 
-        if (root == NULL)
+        if (root == nullptr)
             return 0;
 
-        int l = height(root->left, res);
-        int r = height(root->right, res);
+        int left = max(0, solve(root->left));
+        int right = max(0, solve(root->right));
 
-        // Maximum sum if we extend the path to the parent.
-        int temp = max(root->val, root->val + max(l, r));
+        // Path passing through current node
+        ans = max(ans, left + root->val + right);
 
-        // Maximum sum if the path passes through this node.
-        int ans = max(temp, root->val + l + r);
-
-        // Update the global answer.
-        res = max(res, ans);
-
-        return temp;
+        // Path that can be continued to parent
+        return root->val + max(left, right);
     }
 
     int maxPathSum(TreeNode* root) {
-
-        int res = INT_MIN;
-
-        height(root, res);
-
-        return res;
+        solve(root);
+        return ans;
     }
 };
