@@ -13,7 +13,6 @@ public:
                     // Can't use the same copy twice
                     if (i == j || j == k || i == k)
                         continue;
-
                     // First digit cannot be 0
                     if (digits[i] == 0)
                         continue;
@@ -22,10 +21,7 @@ public:
                     if (digits[k] % 2 != 0)
                         continue;
 
-                    int num = digits[i] * 100 +
-                              digits[j] * 10 +
-                              digits[k];
-
+                    int num = digits[i] * 100 +digits[j] * 10 +digits[k];
                     st.insert(num);
                 }
             }
