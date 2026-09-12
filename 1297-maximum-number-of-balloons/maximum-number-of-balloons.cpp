@@ -1,18 +1,20 @@
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
-        vector<int> freq(26, 0);
+        unordered_map<char, int> mp;
 
-        for(char ch : text) {
-            freq[ch - 'a']++;
+        for (char c : text) {
+            mp[c]++;
         }
 
-        return min({
-            freq['b' - 'a'],
-            freq['a' - 'a'],
-            freq['l' - 'a'] / 2,
-            freq['o' - 'a'] / 2,
-            freq['n' - 'a']
+        int cnt = min({
+            mp['b'],
+            mp['a'],
+            mp['l'] / 2,
+            mp['o'] / 2,
+            mp['n']
         });
+
+        return cnt;
     }
 };
