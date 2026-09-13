@@ -1,9 +1,9 @@
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
-        unordered_map<char, int> mp;
-
-        for (char c:text) {
+        unordered_map<char,int>mp ; 
+        int n = text.size();
+        for(char c:text){
             mp[c]++;
         }
         int cnt = min({
@@ -13,6 +13,6 @@ public:
             mp['o']/2,
             mp['n']
         });
-        return cnt;
+        return cnt; 
     }
 };
