@@ -1,16 +1,26 @@
 class Solution {
 public:
     bool canConstruct(string r, string m) {
-        unordered_map<char,int>count;
-        for(char c:m){
-            count[c]++;
+        int n = r.size();
+        int z = m.size();
+
+        unordered_map<char, int> kush;
+        unordered_map<char, int> luv;
+
+        for(int i = 0; i < n; i++) {
+            kush[r[i]]++;
         }
-        for(char c : r){
-            if(count[c]==0){
+
+        for(int j = 0; j < z; j++) {
+            luv[m[j]]++;
+        }
+
+        for(auto x : kush) {
+            if(luv[x.first] < x.second) {
                 return false;
             }
-            count[c]--;
         }
+
         return true;
     }
 };
