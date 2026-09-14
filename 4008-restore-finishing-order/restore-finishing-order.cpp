@@ -9,7 +9,7 @@ public:
             luv[friends[i]]++;
         }
         for(int i =0; i < n ;i++){
-            if(luv[order[i]]>0){
+            if(luv[order[i]]){
                 ans.push_back(order[i]);
             }
         }
