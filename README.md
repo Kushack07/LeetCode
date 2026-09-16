@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/KUSH-0007/LeetCode/tree/master/1140-stone-game-ii) |
 | [1250-check-if-it-is-a-good-array](https://github.com/Kushack07/LeetCode/tree/master/1250-check-if-it-is-a-good-array) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Kushack07/LeetCode/tree/master/1344-angle-between-hands-of-a-clock) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/KUSH-0007/LeetCode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/KUSH-0007/LeetCode/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/KUSH-0007/LeetCode/tree/master/2029-stone-game-ix) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kushack07/LeetCode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/KUSH-0007/LeetCode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/KUSH-0007/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 ## Greedy
 |  |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/KUSH-0007/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/KUSH-0007/LeetCode/tree/master/1140-stone-game-ii) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/KUSH-0007/LeetCode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/KUSH-0007/LeetCode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1732-find-the-highest-altitude](https://github.com/KUSH-0007/LeetCode/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/Kushack07/LeetCode/tree/master/1871-jump-game-vii) |
 | [1872-stone-game-viii](https://github.com/KUSH-0007/LeetCode/tree/master/1872-stone-game-viii) |
@@ -410,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/KUSH-0007/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Kushack07/LeetCode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1340-jump-game-v](https://github.com/Kushack07/LeetCode/tree/master/1340-jump-game-v) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/KUSH-0007/LeetCode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1871-jump-game-vii](https://github.com/Kushack07/LeetCode/tree/master/1871-jump-game-vii) |
 | [1872-stone-game-viii](https://github.com/KUSH-0007/LeetCode/tree/master/1872-stone-game-viii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
