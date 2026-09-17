@@ -1,15 +1,47 @@
 class Solution {
 public:
-    int splitArray(vector<int>& a, int k) {
-        long long l=*max_element(a.begin(),a.end()), r=accumulate(a.begin(),a.end(),0LL);
-        while(l<r){
-            long long m=(l+r)/2,s=0; int c=1;
-            for(int x:a)
-                if(s+x>m) s=x,c++;
-                else s+=x;
-            if(c<=k) r=m;
-            else l=m+1;
+    int splitArray(vector<int>& nums, int k) {
+        
+        // Minimum possible answer = largest element
+        long long low = *max_element(nums.begin(), nums.end());
+        
+        // Maximum possible answer = sum of all elements
+        long long high = accumulate(nums.begin(), nums.end(), 0LL);
+
+        while (low < high) {
+            
+            // Try this value as the maximum allowed subarray sum
+            long long mid = low + (high - low) / 2;
+            
+            long long currentSum = 0;
+            int subarrays = 1;
+
+            // Count how many subarrays are needed
+            // if each subarray can have sum <= mid
+            for (int num : nums) {
+                if (currentSum + num > mid) {
+                    // Start a new subarray
+                    currentSum = num;
+                    subarrays++;
+                } 
+                else {
+                    currentSum += num;
+                }
+            }
+
+            // We can split into k or fewer subarrays
+            // So try a smaller maximum sum
+            if (subarrays <= k) {
+                high = mid;
+            } 
+            else {
+                // Need more than k subarrays,
+                // so maximum sum must be increased
+                low = mid + 1;
+            }
         }
-        return l;
+
+        // low == high = minimum possible largest sum
+        return low;
     }
 };
