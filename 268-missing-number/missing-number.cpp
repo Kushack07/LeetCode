@@ -11,3 +11,16 @@ public:
         return n ; 
     }
 };
+
+/*
+    int missing(vector<int>&kush){
+        int n =kush.size();
+        int mis =0;
+        for(int x :kush){
+            if(x==mis){
+                mis++;
+            }
+        }
+        return mis ;
+    }
+*/
