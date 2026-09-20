@@ -1,11 +1,11 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int n =nums.size();
-        int ans =0;
-        for(int x: nums){
-            ans ^= x;
+        // we will use the xor 
+        int ans=0;
+        for(int n:nums){
+            ans ^=n;
         }
-        return ans ;
+        return ans; 
     }
 };
