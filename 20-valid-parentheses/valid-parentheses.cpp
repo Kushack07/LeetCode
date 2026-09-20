@@ -12,9 +12,10 @@ public:
 
             // Closing bracket
             else {
-                if (st.empty()) {
+                if (st.empty()){
                     return false;
                 }
+                
 
                 if ((c == ')' && st.top() != '(') ||
                     (c == '}' && st.top() != '{') ||
