@@ -1,10 +1,12 @@
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-        vector<char>ans;
+        string res;
         for(int i = s.size()-1;i>=0;i--){
-            ans.push_back(s[i]);
+            res +=s[i];
         }
-        s=ans ;
+        for(int i =0; i < s.size();i++){
+            s[i]=res[i];
+        }
     }
 };
