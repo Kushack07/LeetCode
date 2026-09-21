@@ -516,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0175-combine-two-tables](https://github.com/KUSH-0007/LeetCode/tree/master/0175-combine-two-tables) |
+| [0185-department-top-three-salaries](https://github.com/KUSH-0007/LeetCode/tree/master/0185-department-top-three-salaries) |
 | [0584-find-customer-referee](https://github.com/KUSH-0007/LeetCode/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/KUSH-0007/LeetCode/tree/master/0595-big-countries) |
 | [0620-not-boring-movies](https://github.com/Kushack07/LeetCode/tree/master/0620-not-boring-movies) |
