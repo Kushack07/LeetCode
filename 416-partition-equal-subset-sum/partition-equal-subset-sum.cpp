@@ -11,8 +11,10 @@ public:
                 //take 
                 if(ans[i-1]<=j){
                     dp[i][j]=dp[i-1][j-ans[i-1]]||dp[i-1][j]; //take the value 
-                }else{
-                    dp[i][j]=dp[i-1][j];//skip 
+                }
+                else{
+                    //skip
+                    dp[i][j]=dp[i-1][j];
                 }
             }
         }
