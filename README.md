@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2141-maximum-running-time-of-n-computers](https://github.com/KUSH-0007/LeetCode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Kushack07/LeetCode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Kushack07/LeetCode/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KUSH-0007/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/KUSH-0007/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2365-task-scheduler-ii](https://github.com/Kushack07/LeetCode/tree/master/2365-task-scheduler-ii) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Kushack07/LeetCode/tree/master/2452-words-within-two-edits-of-dictionary) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/Kushack07/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Kushack07/LeetCode/tree/master/1914-cyclically-rotating-a-grid) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Kushack07/LeetCode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KUSH-0007/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2625-increment-submatrices-by-one](https://github.com/KUSH-0007/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
@@ -444,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1872-stone-game-viii](https://github.com/KUSH-0007/LeetCode/tree/master/1872-stone-game-viii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Kushack07/LeetCode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KUSH-0007/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/KUSH-0007/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3524-find-x-value-of-array-i](https://github.com/KUSH-0007/LeetCode/tree/master/3524-find-x-value-of-array-i) |
@@ -719,4 +722,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KUSH-0007/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/KUSH-0007/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KUSH-0007/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 <!---LeetCode Topics End-->
