@@ -1,19 +1,19 @@
 class Solution {
 public:
     vector<string>ans; 
-    void gen(string s ,int open,int close,int n){
+    void gen(string s,int a,int b,int n){
         if(s.length()==2*n){
             ans.push_back(s);
-            return; 
+            return;
         }
-        if(open<n){
-            gen(s+"(",open+1,close,n);
+        if(a<n){
+            gen(s+"(", a+1, b, n);
         }
-        if(close<open){
-            gen(s+")",open,close+1,n);
+        if(b<a){
+            gen(s+")", a, b+1,n);
         }
     }
-    vector<string> generateParenthesis(int n) {
+    vector<string> generateParenthesis(int n){
         gen("",0,0,n);
         return ans;
     }
