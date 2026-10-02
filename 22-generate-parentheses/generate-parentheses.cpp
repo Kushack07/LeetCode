@@ -1,20 +1,20 @@
 class Solution {
 public:
-    void solve(int n , int open ,int close, string s,vector<string>&ans){
-        if(s.size()==2*n){
+    vector<string>ans; 
+    void generate(string s, int open , int close , int n){
+        if(s.length()==2*n){
             ans.push_back(s);
             return;
         }
         if(open < n){
-            solve(n,open+1,close,s+'(',ans);
+            generate(s+"(",open+1,close,n);
         }
         if(close<open){
-            solve(n,open,close+1,s+')',ans);
+            generate(s+")",open,close+1,n);
         }
-    }   
-    vector<string> generateParenthesis(int n){
-        vector<string>ans; 
-        solve(n,0,0,"",ans);
-        return ans ;
     }
+        vector<string> generateParenthesis(int n) {
+            generate("",0,0,n);
+            return ans ;
+        }
 };
