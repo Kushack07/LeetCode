@@ -1,12 +1,32 @@
-class Solution { // 256 ms, faster than 42.84%
+class Solution {
 public:
+    int dp[2501][2501];
+
+    int func(vector<int>& a, int n, int i, int prev) {
+        if (i == n) {
+            return 0;
+        }
+
+        if (dp[i][prev + 1] != -1) {
+            return dp[i][prev + 1];
+        }
+
+        // Don't take current element
+        int c1 = func(a, n, i + 1, prev);
+
+        // Take current element
+        int c2 = 0;
+        if (prev == -1 || a[i] > a[prev]) {
+            c2 = 1 + func(a, n, i + 1, i);
+        }
+
+        return dp[i][prev + 1] = max(c1, c2);
+    }
+
     int lengthOfLIS(vector<int>& nums) {
-        int n=nums.size();
-        vector<int> dp(n, 1);
-        for (int i = 0; i < n; ++i)
-            for (int j = 0; j < i; ++j)
-                if (nums[i] > nums[j] && dp[i] < dp[j] + 1)
-                    dp[i] = dp[j] + 1;
-        return *max_element(dp.begin(), dp.end());
+        int n = nums.size();
+        memset(dp, -1, sizeof(dp));
+
+        return func(nums, n, 0, -1);
     }
 };
