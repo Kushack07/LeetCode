@@ -22,11 +22,9 @@ public:
 
         return dp[i][prev + 1] = max(c1, c2);
     }
-
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         memset(dp, -1, sizeof(dp));
-
         return func(nums, n, 0, -1);
     }
 };
