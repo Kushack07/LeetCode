@@ -1,40 +1,40 @@
 class Solution {
 public:
+
+    void dfs(vector<vector<char>>& grid, int i, int j) {
+        int n = grid.size();
+        int m = grid[0].size();
+
+        if (i < 0 || j < 0 || i >= n || j >= m ||
+            grid[i][j] == '0') {
+            return;
+        }
+
+        grid[i][j] = '0';
+
+        dfs(grid, i - 1, j);
+        dfs(grid, i + 1, j);
+        dfs(grid, i, j - 1);
+        dfs(grid, i, j + 1);
+    }
+
     int numIslands(vector<vector<char>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        int cnt = 0;
 
-        vector<vector<bool>> visited(n, vector<bool>(m, 0));
-        vector<int> dx = {-1, 1, 0, 0};
-        vector<int> dy = {0, 0, -1, 1};
-        queue<pair<int, int>> q;
+        int count = 0;
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                if (grid[i][j] == '1' && !visited[i][j]) {
-                    cnt++;
-                    q.push({i, j});
-                    visited[i][j] = true;
 
-                    while (!q.empty()) {
-                        auto [x, y] = q.front();
-                        q.pop();
+                if (grid[i][j] == '1') {
+                    count++;
 
-                        for (int d = 0; d < 4; d++) {
-                            int nr = x + dx[d];
-                            int nc = y + dy[d];
-
-                            if (nr >= 0 && nr < n && nc >= 0 && nc < m &&
-                                !visited[nr][nc] && grid[nr][nc] == '1') {
-                                visited[nr][nc] = true;
-                                q.push({nr, nc});
-                            }
-                        }
-                    }
+                    dfs(grid, i, j);
                 }
             }
         }
-        return cnt;
+
+        return count;
     }
 };
