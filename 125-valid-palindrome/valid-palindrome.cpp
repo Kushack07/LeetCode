@@ -1,17 +1,20 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        int st =0 ;
-        int lt = s.size()-1;
-        while(st<=lt){
-            if(!isalnum(s[st])){st++;continue;}
-            if(!isalnum(s[lt])){lt--;continue;}
-            if(tolower(s[st])!=tolower(s[lt])) return false;
-            else{
-                st++;
-                lt--;
+        string cleaned = "";
+        
+        // 1. Clean the string: keep only alphanumeric characters and make them lowercase
+        for (char c : s) {
+            if (isalnum(c)) {
+                cleaned += tolower(c);
             }
         }
-        return true;
+        
+        // 2. Create a reversed copy of the cleaned string
+        string reversed_cleaned = cleaned;
+        reverse(reversed_cleaned.begin(), reversed_cleaned.end());
+        
+        // 3. Compare the cleaned version with its reverse
+        return cleaned == reversed_cleaned;
     }
 };
