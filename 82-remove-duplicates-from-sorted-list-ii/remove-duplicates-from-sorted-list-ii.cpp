@@ -14,9 +14,9 @@ public:
         if(head==nullptr){
             return nullptr;
         }
-            ListNode dummy(0, head);
-    ListNode* cur = &dummy;
-
+        ListNode dummy(0, head);
+        ListNode* cur = &dummy;
+    
     while (cur->next != nullptr && cur->next->next != nullptr) {
         if (cur->next->val == cur->next->next->val) {
             int duplicate = cur->next->val;
