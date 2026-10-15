@@ -10,18 +10,26 @@
  */
 class Solution {
 public:
-typedef ListNode L;
-    ListNode* deleteDuplicates(ListNode* h) {
-        L* t=new L(0,h);
-        L* cur=h;
-        L* prev=t;
-        while(cur)
-        {
-            while(cur->next && cur->next->val==cur->val) cur=cur->next;
-            if(prev->next==cur) prev=cur;
-            else prev->next=cur->next;
-            cur=cur->next;
+    ListNode* deleteDuplicates(ListNode* head) {
+        if(head==nullptr){
+            return nullptr;
         }
-        return t->next;
+            ListNode dummy(0, head);
+    ListNode* cur = &dummy;
+
+    while (cur->next != nullptr && cur->next->next != nullptr) {
+        if (cur->next->val == cur->next->next->val) {
+            int duplicate = cur->next->val;
+
+            while (cur->next != nullptr && cur->next->val == duplicate) {
+                cur->next = cur->next->next;
+            }
+        } 
+        else {
+            cur = cur->next;
+        }
+    }
+
+    return dummy.next;
     }
 };
