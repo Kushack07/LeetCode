@@ -9,7 +9,6 @@ public:
             sum += digit * digit;
             n /= 10;
         }
-
         return sum;
     }
 
