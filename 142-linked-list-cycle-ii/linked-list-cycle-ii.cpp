@@ -9,10 +9,10 @@ public:
             if(slow == fast){
                 ListNode*temp = head ; 
                 while(temp != slow){
-                    temp = temp->next; 
-                    slow = slow->next; 
+                    temp =temp->next; 
+                    slow =slow->next; 
                 }
-                return temp ;
+                return temp;
             }
         }
         return nullptr; 
