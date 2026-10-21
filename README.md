@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3713-longest-balanced-substring-i](https://github.com/KUSH-0007/LeetCode/tree/master/3713-longest-balanced-substring-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/KUSH-0007/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/Kushack07/LeetCode/tree/master/3760-maximum-substrings-with-distinct-start) |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/KUSH-0007/LeetCode/tree/master/3863-minimum-operations-to-sort-a-string) |
 | [3921-score-validator](https://github.com/Kushack07/LeetCode/tree/master/3921-score-validator) |
 ## Hash Table
 |  |
