@@ -1,51 +1,13 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums) {
-        bool IisValid = true;
-        int IbreakPoint = 0;
-        int IBidx = -1;
-        int n = nums.size();
-
-        if (n == 1) return 0;
-
-        for (int i = 0; i < n; ++i) {
-            if (nums[i] > nums[(i + 1) % n]) {
-                ++IbreakPoint;
-                IBidx = (i + 1) % n;
-            }
-
-            if (IbreakPoint > 1) {
-                IisValid = false;
-                break;
-            }
-        }
-
-        bool DisValid = true;
-        int DbreakPoint = 0;
-        int DBidx = -1;
-
-        if (!IisValid) {
-            for (int i = 0; i < n; ++i) {
-                if (nums[i] < nums[(i + 1) % n]) {
-                    ++DbreakPoint;
-                    DBidx = (i + 1) % n;
-                }
-
-                if (DbreakPoint > 1) {
-                    DisValid = false;
-                    break;
-                }
-            }
-        } else {
-            DisValid = false;
-        }
-
-        if (!IisValid && !DisValid) return -1;
-
-        if (IisValid) {
-            return min(IBidx, n - IBidx + 2);
-        } else {
-            return 1 + min(DBidx, n - DBidx);
-        }
+        int n = nums.size(), shift = ranges::find(nums, 0) - nums.begin();
+        auto ring = [&](int k) { return nums[(shift + k) % n]; };  // the circle, read from 0
+        auto all = [&](auto holds) { return ranges::all_of(views::iota(0, n), holds); };
+        if (all([&](int k) { return ring(k) == k; }))  // counts up along the arrow
+            return min(shift, n - shift + 2);  // walk ahead, or turn, walk back, turn back
+        if (all([&](int k) { return ring(k) == (n - k) % n; }))  // counts up against the arrow
+            return min(shift + 2, n - shift);  // walk ahead and turn, or turn and walk back
+        return -1;
     }
 };
