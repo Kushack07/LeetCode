@@ -16,7 +16,7 @@ public:
             high++;
         }
         if(ml == INT_MAX){
-            return 0 ;
+            return 0;
         }
         return ml ;
     }
