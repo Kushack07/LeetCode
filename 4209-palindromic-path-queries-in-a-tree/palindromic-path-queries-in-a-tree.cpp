@@ -1,96 +1,153 @@
-struct Tree {  // Euler tour: the subtree of x is tin[x] .. tout[x] - 1; LCA by a sparse table over the DFS order
-    vector<int> parent, tin, tout, order;  // the root is its own parent; order: the nodes in DFS order
-    vector<vector<int>> first;  // first[k][i]: the earliest parent among order[i .. i + 2^k - 1]
-
-    Tree(int n, vector<vector<int>>& edges) : parent(n), tin(n), tout(n) {
-        vector<int> head(n + 1), adj(2 * n);  // the neighbors of x are adj[head[x] .. head[x + 1] - 1]
-        for (auto& e : edges) head[e[0] + 1]++, head[e[1] + 1]++;
-        partial_sum(head.begin(), head.end(), head.begin());
-        vector<int> pos(head.begin(), head.end() - 1);
-        for (auto& e : edges) adj[pos[e[0]]++] = e[1], adj[pos[e[1]]++] = e[0];
-
-        vector<int> stack = {0};
-        while (!stack.empty()) {  // DFS without recursion; ~x marks the moment x's subtree is done
-            int x = stack.back();
-            stack.pop_back();
-            if (x < 0) {
-                tout[~x] = order.size();
-                continue;
-            }
-            tin[x] = order.size();
-            order.push_back(x);
-            stack.push_back(~x);
-            for (int i = head[x]; i < head[x + 1]; i++)
-                if (int y = adj[i]; y != parent[x]) {
-                    parent[y] = x;
-                    stack.push_back(y);
-                }
-        }
-
-        first.emplace_back(n);
-        for (int i = 0; i < n; i++) first[0][i] = tin[parent[order[i]]];
-        for (int k = 1; 1 << k <= n; k++) {
-            first.emplace_back(n - (1 << k) + 1);
-            for (int i = 0; i + (1 << k) <= n; i++) first[k][i] = min(first[k - 1][i], first[k - 1][i + (1 << (k - 1))]);
-        }
-    }
-
-    int lca(int u, int v) {  // the parent that comes first in DFS order among the nodes after u up to v
-        if (u == v) return u;
-        auto [l, r] = minmax(tin[u], tin[v]);
-        int k = bit_width(unsigned(r - l)) - 1;
-        return order[min(first[k][l + 1], first[k][r - (1 << k) + 1])];
-    }
-};
-
-struct RootPaths {  // paths[x]: XOR of the letter bits from the root down to x
-    Tree& tree;
-    vector<int> start, fenwick;  // the masks for the initial letters, and a Fenwick tree over the Euler tour with the changes since the start
-
-    RootPaths(Tree& tree, vector<int>& bit) : tree(tree), start(bit), fenwick(bit.size() + 1) {
-        for (int x : tree.order)  // a parent comes before its children in DFS order
-            if (x != tree.parent[x]) start[x] ^= start[tree.parent[x]];
-    }
-
-    void flip(int x, int d) {  // XOR d into the root path of every node in x's subtree
-        for (int i : {tree.tin[x] + 1, tree.tout[x] + 1})  // d starts at x's subtree and cancels out after it
-            for (; i < (int)fenwick.size(); i += i & -i) fenwick[i] ^= d;
-    }
-
-    int operator[](int x) {
-        int mask = start[x];
-        for (int i = tree.tin[x] + 1; i > 0; i -= i & -i) mask ^= fenwick[i];
-        return mask;
-    }
-};
-
 class Solution {
+private:
+    int n;
+    vector<vector<int>> adj;
+    vector<int> parent, depth, heavy, head, pos, val;
+    int curPos;
+
+    struct SegmentTree{
+        int size;
+        vector<int> tree;
+
+        SegmentTree(int n){
+            size = n;
+            tree.assign(4 * n, 0);
+        }
+
+        void update(int node, int start, int end, int idx, int val){
+            if(start == end){
+                tree[node] = val;
+                return;
+            }
+
+            int mid = start + (end - start) / 2;
+            if(idx <= mid){
+                update(2 * node, start, mid, idx, val);
+            }else{
+                update(2 * node + 1, mid + 1, end, idx, val);
+            }
+
+            tree[node] = tree[2 * node] ^ tree[2 * node + 1];
+        }
+
+        int query(int node, int start, int end, int l, int r){
+            if(r < start || end < l){
+                return 0;
+            }
+            if(l <= start && end <= r){
+                return tree[node];
+            }
+
+            int mid = start + (end - start) / 2;
+            return query(2 * node, start, mid, l, r) ^ query(2 * node + 1, mid + 1, end, l, r);
+        }
+    };
+
+    int dfs(int u, int p, int d){
+        depth[u] = d;
+        parent[u] = p;
+
+        int size = 1;
+        int maxChildSize = 0;
+
+        for(int v : adj[u]){
+            if(v != p){
+                int childSize = dfs(v, u, d + 1);
+                size += childSize;
+
+                if(childSize > maxChildSize){
+                    maxChildSize = childSize;
+                    heavy[u] = v;
+                }
+            }
+        }
+
+        return size;
+    }
+
+    void decompose(int u, int h){
+        head[u] = h;
+        pos[u] = curPos++;
+
+        if(heavy[u] != -1){
+            decompose(heavy[u], h);
+        }
+
+        for(int v : adj[u]){
+            if(v != parent[u] && v != heavy[u]){
+                decompose(v, v);
+            }
+        }
+    }
+
+    int queryPath(int u, int v, SegmentTree& segTree){
+        int res = 0;
+
+        while(head[u] != head[v]){
+            if(depth[head[u]] > depth[head[v]]){
+                swap(u, v);
+            }
+
+            res ^= segTree.query(1, 0, n - 1, pos[head[v]], pos[v]);
+            v = parent[head[v]];
+        }
+
+        if(depth[u] > depth[v]){
+            swap(u, v);
+        }
+
+        res ^= segTree.query(1, 0, n - 1, pos[u], pos[v]);
+        return res;
+    }
+
 public:
-    vector<bool> palindromePath(int n, vector<vector<int>>& edges, string s, vector<string>& queries) {
-        Tree tree(n, edges);
-        vector<int> bit(n);  // bit[x]: the bit of x's letter
-        for (int x = 0; x < n; x++) bit[x] = 1 << (s[x] - 'a');
-        RootPaths paths(tree, bit);
+    vector<bool> palindromePath(int n, vector<vector<int>>& edges, string s, vector<string>& queries){
+        this->n = n;
+        adj.assign(n, vector<int>());
+
+        for(const auto& e : edges){
+            adj[e[0]].push_back(e[1]);
+            adj[e[1]].push_back(e[0]);
+        }
+
+        parent.assign(n, 0);
+        depth.assign(n, 0);
+        heavy.assign(n, -1);
+        head.assign(n, 0);
+        pos.assign(n, 0);
+
+        dfs(0, -1, 0);
+
+        curPos = 0;
+        decompose(0, 0);
+
+        SegmentTree segTree(n);
+        val.resize(n);
+
+        for(int i = 0; i < n; i++){
+            val[i] = 1 << (s[i] - 'a');
+            segTree.update(1, 0, n - 1, pos[i], val[i]);
+        }
 
         vector<bool> ans;
-        for (auto& q : queries) {
-            if (q[0] == 'u') {  // "update x c"
-                int x = number(q, 7), newBit = 1 << (q.back() - 'a');
-                paths.flip(x, bit[x] ^ newBit);  // the new letter changes the root path of every node in x's subtree
-                bit[x] = newBit;
-            } else {  // "query u v"
-                int u = number(q, 6), v = number(q, q.rfind(' ') + 1);
-                int mask = paths[u] ^ paths[v] ^ bit[tree.lca(u, v)];  // the LCA cancels out in paths[u] ^ paths[v], so add it back
-                ans.push_back(popcount(unsigned(mask)) <= 1);  // at most one letter is odd
+
+        for(const string& q : queries){
+            stringstream ss(q);
+            string type;
+            ss >> type;
+            if(type == "update"){
+                int u;
+                char c;
+                ss >> u >> c;
+                val[u] = 1 << (c - 'a');
+                segTree.update(1, 0, n - 1, pos[u], val[u]);
+            }else{
+                int u, v;
+                ss >> u >> v;
+                int mask = queryPath(u, v, segTree);
+                ans.push_back((mask & (mask - 1)) == 0);
             }
         }
         return ans;
-    }
-
-private:
-    static int number(const string& q, int i) {  // the number that starts at q[i]
-        int x = 0;
-        for (; i < (int)q.size() && isdigit(q[i]); i++) x = x * 10 + (q[i] - '0');
-        return x;
     }
 };
