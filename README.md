@@ -321,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3760-maximum-substrings-with-distinct-start](https://github.com/Kushack07/LeetCode/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/KUSH-0007/LeetCode/tree/master/3863-minimum-operations-to-sort-a-string) |
 | [3921-score-validator](https://github.com/Kushack07/LeetCode/tree/master/3921-score-validator) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/KUSH-0007/LeetCode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Hash Table
 |  |
 | ------- |
@@ -582,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Kushack07/LeetCode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Kushack07/LeetCode/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/KUSH-0007/LeetCode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Database
 |  |
 | ------- |
@@ -744,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Kushack07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Kushack07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/Kushack07/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/KUSH-0007/LeetCode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Topological Sort
 |  |
 | ------- |
@@ -832,4 +835,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/KUSH-0007/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Shortest Path
+|  |
+| ------- |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/KUSH-0007/LeetCode/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 <!---LeetCode Topics End-->
