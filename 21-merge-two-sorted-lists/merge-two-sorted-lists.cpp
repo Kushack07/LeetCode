@@ -9,7 +9,7 @@ public:
                 l1=l1->next;
             }
             else{
-                t->next = l2 ; 
+                t->next =l2; 
                 l2=l2->next; 
             }
             t=t->next;
