@@ -17,8 +17,7 @@ public:
             ListNode*next = cur->next ; 
             cur->next = prev ; 
             prev = cur ;
-            cur = next ; 
-            
+            cur = next ;
         }
         return prev; 
 
