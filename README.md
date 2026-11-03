@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/KUSH-0007/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3721-longest-balanced-subarray-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3721-longest-balanced-subarray-ii) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/KUSH-0007/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/KUSH-0007/LeetCode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Kushack07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Kushack07/LeetCode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/Kushack07/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Kushack07/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Kushack07/LeetCode/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/KUSH-0007/LeetCode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/Kushack07/LeetCode/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Kushack07/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3765-complete-prime-number](https://github.com/Kushack07/LeetCode/tree/master/3765-complete-prime-number) |
