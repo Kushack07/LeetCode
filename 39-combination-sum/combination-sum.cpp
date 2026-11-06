@@ -18,8 +18,8 @@ class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> ans;
-        vector<int> currComb;
-        combination(candidates, target, currComb, 0, 0, ans);
+        vector<int>currComb;
+        combination(candidates,target,currComb,0,0,ans);
         return ans;
     }
 };
