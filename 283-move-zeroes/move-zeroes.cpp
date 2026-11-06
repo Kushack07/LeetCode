@@ -1,15 +1,15 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int cnt = 0;
-        int n = nums.size();
-        
-        for (int i = 0; i < n; i++) {
+        int j = 0;
+        // move all the nonzero elements advance
+        for (int i = 0; i < nums.size(); i++) {
             if (nums[i] != 0) {
-                swap(nums[cnt], nums[i]);
-                cnt++;
+                nums[j++] = nums[i];
             }
+        }
+        for (;j < nums.size(); j++) {
+            nums[j] = 0;
         }
     }
 };
-
