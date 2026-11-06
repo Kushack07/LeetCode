@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kushack07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/KUSH-0007/LeetCode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Kushack07/LeetCode/tree/master/0204-count-primes) |
+| [0283-move-zeroes](https://github.com/KUSH-0007/LeetCode/tree/master/0283-move-zeroes) |
 | [0289-game-of-life](https://github.com/KUSH-0007/LeetCode/tree/master/0289-game-of-life) |
 | [0322-coin-change](https://github.com/Kushack07/LeetCode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Kushack07/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -421,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kushack07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/KUSH-0007/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/KUSH-0007/LeetCode/tree/master/0202-happy-number) |
+| [0283-move-zeroes](https://github.com/KUSH-0007/LeetCode/tree/master/0283-move-zeroes) |
 | [0763-partition-labels](https://github.com/KUSH-0007/LeetCode/tree/master/0763-partition-labels) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Kushack07/LeetCode/tree/master/0786-k-th-smallest-prime-fraction) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/KUSH-0007/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
