@@ -10,8 +10,8 @@ public:
         }
         int suf =1; 
         for(int i=n-1;i>=0;i--){
-            ans[i]*= suf ;
-            suf *= nums[i];
+            ans[i]*=suf ;
+            suf *=nums[i];
         }
         return ans;
     }
