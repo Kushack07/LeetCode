@@ -8,9 +8,9 @@ public:
             ans[i]=pre;
             pre*=nums[i];
         }
-        int suf = 1; 
-        for(int i = n-1; i>= 0 ; i--){
-            ans[i] *= suf ;
+        int suf =1; 
+        for(int i=n-1;i>=0;i--){
+            ans[i]*= suf ;
             suf *= nums[i];
         }
         return ans;
