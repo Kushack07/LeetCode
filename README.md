@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/KUSH-0007/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Kushack07/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/KUSH-0007/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/KUSH-0007/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1630-arithmetic-subarrays](https://github.com/Kushack07/LeetCode/tree/master/1630-arithmetic-subarrays) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Kushack07/LeetCode/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/KUSH-0007/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0258-add-digits](https://github.com/Kushack07/LeetCode/tree/master/0258-add-digits) |
 | [0289-game-of-life](https://github.com/KUSH-0007/LeetCode/tree/master/0289-game-of-life) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/KUSH-0007/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Kushack07/LeetCode/tree/master/1914-cyclically-rotating-a-grid) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/Kushack07/LeetCode/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/KUSH-0007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -600,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/Kushack07/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Kushack07/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Kushack07/LeetCode/tree/master/0786-k-th-smallest-prime-fraction) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/KUSH-0007/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1882-process-tasks-using-servers](https://github.com/KUSH-0007/LeetCode/tree/master/1882-process-tasks-using-servers) |
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/KUSH-0007/LeetCode/tree/master/2333-minimum-sum-of-squared-difference) |
@@ -786,6 +789,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0456-132-pattern](https://github.com/Kushack07/LeetCode/tree/master/0456-132-pattern) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/KUSH-0007/LeetCode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 ## Merge Sort
 |  |
 | ------- |
