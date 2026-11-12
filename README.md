@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Kushack07/LeetCode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3093-longest-common-suffix-queries](https://github.com/Kushack07/LeetCode/tree/master/3093-longest-common-suffix-queries) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3115-maximum-prime-difference](https://github.com/Kushack07/LeetCode/tree/master/3115-maximum-prime-difference) |
 | [3161-block-placement-queries](https://github.com/Kushack07/LeetCode/tree/master/3161-block-placement-queries) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
