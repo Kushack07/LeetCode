@@ -1,30 +1,24 @@
 class Solution {
 public:
     long long countNonDecreasingSubarrays(vector<int>& nums, int k) {
-        long long ans = 0;
-        long long cost = 0;
-        deque<pair<int, int>> dq;
-        int n = nums.size();
-        for (int i = n - 1, j = n - 1; i >= 0; --i) {
-            int num = nums[i];
-            int count = 1;
-            while (!dq.empty() && dq.back().first < num) {
-                auto [nextNum, nextCount] = dq.back();
-                dq.pop_back();
-                count += nextCount;
-                cost += 1LL * (num - nextNum) * nextCount;
+        int n = nums.size(), head = n, tail = n, r = n - 1;
+        vector<int> starts(n);  // where each plateau starts, left to right: starts[head..tail)
+        long long ans = 0, water = 0;
+        for (int l = n - 1; l >= 0; --l) {
+            int x = nums[l];
+            while (head < tail && nums[starts[head]] <= x) {  // x floods the plateau that starts at starts[head]
+                int s = starts[head++];
+                int end = head < tail ? starts[head] : r + 1;
+                water += 1LL * (x - nums[s]) * (end - s);
             }
-            dq.emplace_back(num, count);
-            while (cost > k) {
-                auto [rightmostNum, rightmostCount] = dq.front();
-                dq.pop_front();
-                cost -= 1LL * (rightmostNum - nums[j]);
-                --j;
-                if (rightmostCount > 1) {
-                    dq.emplace_front(rightmostNum, rightmostCount - 1);
-                }
+            starts[--head] = l;
+            while (water > k) {  // the right end leaves with its water
+                water -= nums[starts[tail - 1]] - nums[r];
+                if (starts[tail - 1] == r)
+                    --tail;
+                --r;
             }
-            ans += j - i + 1;
+            ans += r - l + 1;
         }
         return ans;
     }
