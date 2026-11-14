@@ -1,27 +1,28 @@
 class Solution {
 public:
     long long countNonDecreasingSubarrays(vector<int>& nums, int k) {
+        long long ans = 0;
+        long long cost = 0;
+        deque<pair<int, int>> dq;
         int n = nums.size();
-        vector<int> val(n), cnt(n);
-        int head = 0, tail = -1;
-        int j = n - 1;
-        long long cost = 0, ans = 0;
-
-        for (int i = n - 1; i >= 0; --i) {
-            int c = 1;
-            while (tail >= head && val[tail] < nums[i]) {
-                cost += (long long)(nums[i] - val[tail]) * cnt[tail];
-                c += cnt[tail];
-                --tail;
+        for (int i = n - 1, j = n - 1; i >= 0; --i) {
+            int num = nums[i];
+            int count = 1;
+            while (!dq.empty() && dq.back().first < num) {
+                auto [nextNum, nextCount] = dq.back();
+                dq.pop_back();
+                count += nextCount;
+                cost += 1LL * (num - nextNum) * nextCount;
             }
-            ++tail;
-            val[tail] = nums[i];
-            cnt[tail] = c;
-
+            dq.emplace_back(num, count);
             while (cost > k) {
-                cost -= val[head] - nums[j];
-                if (--cnt[head] == 0) ++head;
+                auto [rightmostNum, rightmostCount] = dq.front();
+                dq.pop_front();
+                cost -= 1LL * (rightmostNum - nums[j]);
                 --j;
+                if (rightmostCount > 1) {
+                    dq.emplace_front(rightmostNum, rightmostCount - 1);
+                }
             }
             ans += j - i + 1;
         }
