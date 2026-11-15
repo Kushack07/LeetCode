@@ -16,6 +16,6 @@ public:
             }
             ml = max(ml , high-low+1);
         }
-        return ml ; 
+        return ml; 
     }
 };
