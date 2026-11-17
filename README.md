@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2833-furthest-point-from-origin](https://github.com/Kushack07/LeetCode/tree/master/2833-furthest-point-from-origin) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Kushack07/LeetCode/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/KUSH-0007/LeetCode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/KUSH-0007/LeetCode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Kushack07/LeetCode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/Kushack07/LeetCode/tree/master/3093-longest-common-suffix-queries) |
 | [3110-score-of-a-string](https://github.com/Kushack07/LeetCode/tree/master/3110-score-of-a-string) |
@@ -446,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2465-number-of-distinct-averages](https://github.com/KUSH-0007/LeetCode/tree/master/2465-number-of-distinct-averages) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/KUSH-0007/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2540-minimum-common-value](https://github.com/Kushack07/LeetCode/tree/master/2540-minimum-common-value) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/KUSH-0007/LeetCode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Kushack07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Kushack07/LeetCode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Kushack07/LeetCode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -529,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-two-best-non-overlapping-events](https://github.com/KUSH-0007/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KUSH-0007/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/KUSH-0007/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/KUSH-0007/LeetCode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Kushack07/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3524-find-x-value-of-array-i](https://github.com/KUSH-0007/LeetCode/tree/master/3524-find-x-value-of-array-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Kushack07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
