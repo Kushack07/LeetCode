@@ -3,10 +3,11 @@ public:
     int firstUniqChar(string s) {
         int n = s.size();
         unordered_map<char,int>mp;
+        int cnt =0 ; 
         for(char c:s){
             mp[c]++;
         }
-        for(int i =0 ; i < n ;i++){
+        for(int i =0 ; i < n ; i++){
             if(mp[s[i]]==1){
                 return i;
             }
