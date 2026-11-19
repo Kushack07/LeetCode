@@ -22,3 +22,4 @@ public:
         return min({opt1, opt2, opt3});
     }
 };
+
