@@ -9,12 +9,8 @@ public:
                 if(nums1[i]==nums2[j]){
                     ans.insert(nums1[i]);
                 }
-                else{
-                    continue;
-                }
             }
         }
         return vector<int>(ans.begin(),ans.end());
-        
     }
 };
