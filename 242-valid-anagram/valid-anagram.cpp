@@ -7,11 +7,11 @@ public:
         for(char c:s){
             mp[c]++;
         }
-        for(char v:t){
-            mp[v]--;
+        for(char x:t){
+            mp[x]--;
         }
-        for(auto g:mp){
-            if(g.second != 0){
+        for(auto y:mp){
+            if(y.second!=0){
                 return false;
             }
         }
