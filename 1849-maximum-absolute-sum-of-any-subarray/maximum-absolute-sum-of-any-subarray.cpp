@@ -1,12 +1,20 @@
 class Solution {
 public:
-    int maxAbsoluteSum(vector<int>& A){
-        int s = 0, mi = 0, ma = 0;
-        for (int& a: A) {
-            s += a;
-            mi = min(mi, s);
-            ma = max(ma, s);
+    int maxAbsoluteSum(vector<int>& nums) {
+        int maxSum = 0;
+        int minSum = 0;
+
+        int maxEnding = 0;
+        int minEnding = 0;
+
+        for (int i = 0; i < nums.size(); i++) {
+            maxEnding = max(nums[i], maxEnding + nums[i]);
+            minEnding = min(nums[i], minEnding + nums[i]);
+
+            maxSum = max(maxSum, maxEnding);
+            minSum = min(minSum, minEnding);
         }
-        return ma - mi;
+
+        return max(maxSum, abs(minSum));
     }
 };
