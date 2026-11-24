@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3331-find-subtree-sizes-after-changes](https://github.com/KUSH-0007/LeetCode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3364-minimum-positive-sum-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3364-minimum-positive-sum-subarray) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/KUSH-0007/LeetCode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/KUSH-0007/LeetCode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3483-unique-3-digit-even-numbers](https://github.com/KUSH-0007/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3524-find-x-value-of-array-i](https://github.com/KUSH-0007/LeetCode/tree/master/3524-find-x-value-of-array-i) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Kushack07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Kushack07/LeetCode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/KUSH-0007/LeetCode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3524-find-x-value-of-array-i](https://github.com/KUSH-0007/LeetCode/tree/master/3524-find-x-value-of-array-i) |
 | [3556-sum-of-largest-prime-substrings](https://github.com/Kushack07/LeetCode/tree/master/3556-sum-of-largest-prime-substrings) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Kushack07/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
@@ -424,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/KUSH-0007/LeetCode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/KUSH-0007/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3364-minimum-positive-sum-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3364-minimum-positive-sum-subarray) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/KUSH-0007/LeetCode/tree/master/3411-maximum-subarray-with-equal-products) |
 ## Counting
 |  |
 | ------- |
@@ -686,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1291-sequential-digits](https://github.com/Kushack07/LeetCode/tree/master/1291-sequential-digits) |
 | [2761-prime-pairs-with-target-sum](https://github.com/Kushack07/LeetCode/tree/master/2761-prime-pairs-with-target-sum) |
 | [3044-most-frequent-prime](https://github.com/Kushack07/LeetCode/tree/master/3044-most-frequent-prime) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/KUSH-0007/LeetCode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3483-unique-3-digit-even-numbers](https://github.com/KUSH-0007/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3713-longest-balanced-substring-i](https://github.com/KUSH-0007/LeetCode/tree/master/3713-longest-balanced-substring-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/KUSH-0007/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
@@ -765,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3115-maximum-prime-difference](https://github.com/Kushack07/LeetCode/tree/master/3115-maximum-prime-difference) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Kushack07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/KUSH-0007/LeetCode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3556-sum-of-largest-prime-substrings](https://github.com/Kushack07/LeetCode/tree/master/3556-sum-of-largest-prime-substrings) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kushack07/LeetCode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3765-complete-prime-number](https://github.com/Kushack07/LeetCode/tree/master/3765-complete-prime-number) |
