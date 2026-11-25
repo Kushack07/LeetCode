@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3904-smallest-stable-index-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3904-smallest-stable-index-ii) |
 | [3920-maximize-fixed-points-after-deletions](https://github.com/Kushack07/LeetCode/tree/master/3920-maximize-fixed-points-after-deletions) |
 | [3921-score-validator](https://github.com/Kushack07/LeetCode/tree/master/3921-score-validator) |
+| [3934-smallest-unique-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3934-smallest-unique-subarray) |
 ## Math
 |  |
 | ------- |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3721-longest-balanced-subarray-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Kushack07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/Kushack07/LeetCode/tree/master/3760-maximum-substrings-with-distinct-start) |
+| [3934-smallest-unique-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3934-smallest-unique-subarray) |
 ## Sliding Window
 |  |
 | ------- |
@@ -632,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/KUSH-0007/LeetCode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/Kushack07/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3920-maximize-fixed-points-after-deletions](https://github.com/Kushack07/LeetCode/tree/master/3920-maximize-fixed-points-after-deletions) |
+| [3934-smallest-unique-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3934-smallest-unique-subarray) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -917,4 +920,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1352-product-of-the-last-k-numbers](https://github.com/KUSH-0007/LeetCode/tree/master/1352-product-of-the-last-k-numbers) |
+## Rolling Hash
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3934-smallest-unique-subarray) |
+## Suffix Array
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3934-smallest-unique-subarray) |
+## Hash Function
+|  |
+| ------- |
+| [3934-smallest-unique-subarray](https://github.com/KUSH-0007/LeetCode/tree/master/3934-smallest-unique-subarray) |
 <!---LeetCode Topics End-->
