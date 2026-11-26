@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Kushack07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Kushack07/LeetCode/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/KUSH-0007/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3360-stone-removal-game](https://github.com/KUSH-0007/LeetCode/tree/master/3360-stone-removal-game) |
 | [3411-maximum-subarray-with-equal-products](https://github.com/KUSH-0007/LeetCode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3524-find-x-value-of-array-i](https://github.com/KUSH-0007/LeetCode/tree/master/3524-find-x-value-of-array-i) |
 | [3556-sum-of-largest-prime-substrings](https://github.com/Kushack07/LeetCode/tree/master/3556-sum-of-largest-prime-substrings) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/Kushack07/LeetCode/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2751-robot-collisions](https://github.com/Kushack07/LeetCode/tree/master/2751-robot-collisions) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Kushack07/LeetCode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
+| [3360-stone-removal-game](https://github.com/KUSH-0007/LeetCode/tree/master/3360-stone-removal-game) |
 | [3612-process-string-with-special-operations-i](https://github.com/Kushack07/LeetCode/tree/master/3612-process-string-with-special-operations-i) |
 | [3921-score-validator](https://github.com/Kushack07/LeetCode/tree/master/3921-score-validator) |
 ## Combinatorics
